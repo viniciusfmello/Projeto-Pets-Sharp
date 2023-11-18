@@ -1,0 +1,316 @@
+#cabecalho{
+    height: 80px;
+    background-color: #212B46;
+}
+
+#cabecalho #profileicon{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 18%;
+    left: 90%;
+}
+
+#cabecalho a{
+    position: relative;
+    left: 80%;
+    top: 20%;
+}
+
+#menu{
+    width: 155px;
+    height: 626px;
+    background-color: #212B46;
+}
+
+#menu a1{
+    position: relative;
+    top: 13%;
+    left: 36%;
+}
+
+#menu #seleDash{
+    position: absolute;
+    width: 155px;
+    height: 50px;
+    background-color: #151A30;
+    top: 23%;
+}
+
+.dashboard{
+    position: relative;
+    width: 42px;
+    top: 12%;
+    right: 50%;
+}
+
+#menu a2{
+    position: relative;
+    top: 17%;
+    left: 15%;
+    display: block;
+    margin-left: 20%;
+}
+
+.estoque{
+    position: relative;
+    width: 42px;
+    top: 11%;
+    left: 5%;
+}
+
+#menu a3{
+    position: relative;
+    top: 22%;
+    left: 15%;
+}
+
+.vendas{
+    position: relative;
+    width: 42px;
+    top: 20%;
+    right: 60%;
+}
+
+#menu a4{
+    position: relative;
+    top: 25%;
+    left: 35%;
+}
+
+.animais{
+    position: relative;
+    width: 55px;
+    top: 24%;
+    right: 37%;
+}
+
+#menu a5{
+    position: relative;
+    top: 26%;
+    left: 35%;
+}
+
+.tesoura{
+    position: relative;
+    width: 41px;
+    top: 25%;
+    right: 55%;
+}
+
+#quadrados .quadrado1{
+    position: absolute;
+    width: 220px;
+    height: 90px;
+    background-color: #212B46;
+    top: 23%;
+    left: 20%;
+}
+
+#quadrados .quadrado2{
+    position: absolute;
+    width: 220px;
+    height: 90px;
+    background-color: #212B46;
+    top: 23%;
+    left: 45%;
+}
+
+#quadrados .quadrado3{
+    position: absolute;
+    width: 220px;
+    height: 90px;
+    background-color: #212B46;
+    top: 23%;
+    left: 70%;
+}
+
+#quadrados .quadrado4{
+    position: absolute;
+    width: 220px;
+    height: 90px;
+    background-color: #212B46;
+    top: 45%;
+    left: 20%;
+}
+
+#quadrados .quadrado5{
+    position: absolute;
+    width: 220px;
+    height: 90px;
+    background-color: #212B46;
+    top: 45%;
+    left: 45%;
+}
+
+#quadrados .quadrado6{
+    position: absolute;
+    width: 220px;
+    height: 90px;
+    background-color: #212B46;
+    top: 45%;
+    left: 70%;
+}
+
+#quadrados .grafico{
+    position: absolute;
+    top: 70%;
+    width: 150px;
+    left: 33%;
+}
+
+#quadrados .quadrado7{
+    position: absolute;
+    width: 540px;
+    height: 150px;
+    background-color: #212B46;
+    top: 70%;
+    left: 20%;
+
+}
+
+#quadrados .quadrado8{
+    position: absolute;
+    width: 220px;
+    height: 150px;
+    background-color: #212B46;
+    top: 70%;
+    left: 70%;
+}
+
+#quadrados l1{
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    font-size: 120%;
+}
+
+#quadrados l2{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 120%;
+}
+
+#quadrados l3{
+    position: absolute;
+    top: 78%;
+    left: 77%;
+    font-size: 150%;
+}
+
+#quadrados l12{
+    position: absolute;
+    top: 22%;
+    left: 33%;
+    font-size: 250%;
+}
+
+#quadrados l121{
+    position: absolute;
+    top: 31%;
+    left: 29%;
+    font-size: 90%;
+}
+
+.quadrado12{
+    position: absolute;
+    top: 24%;
+    left: 21%;
+    width: 35px;
+    height: 35px;
+}
+
+.quadrado13{
+    position: absolute;
+    top: 24%;
+    left: 46%;
+    width: 35px;
+    height: 35px;
+}
+
+#quadrados l21{
+    position: absolute;
+    top: 22%;
+    left: 56%;
+    font-size: 276%;
+}
+
+#quadrados l22{
+    position: absolute;
+    top: 31%;
+    left: 51%;
+    font-size: 88%;
+}
+
+#quadrados l31{
+    position: absolute;
+    top: 22%;
+    left: 83%;
+    font-size: 276%;
+}
+
+#quadrados l32{
+    position: absolute;
+    top: 31%;
+    left: 82%;
+    font-size: 88%;
+}
+
+#quadrados l41{
+    position: absolute;
+    top: 44%;
+    left: 31%;
+    font-size: 250%;
+}
+
+#quadrados l42{
+    position: absolute;
+    top: 52%;
+    left: 27%;
+    font-size: 90%;
+}
+
+#quadrados l51{
+    position: absolute;
+    top: 44%;
+    left: 56%;
+    font-size: 250%;
+}
+
+#quadrados l52{
+    position: absolute;
+    top: 52%;
+    left: 52%;
+    font-size: 90%;
+}
+
+#quadrados l61{
+    position: absolute;
+    top: 44%;
+    left: 83%;
+    font-size: 276%;
+}
+
+#quadrados l62{
+    position: absolute;
+    top: 53%;
+    left: 82%;
+    font-size: 88%;
+}
+
+.quadrado44{
+    position: absolute;
+    top: 46%;
+    left: 21%;
+    width: 35px;
+    height: 35px;
+}
+
+.quadrado55{
+    position: absolute;
+    top: 46%;
+    left: 46%;
+    width: 35px;
+    height: 35px;
+}
