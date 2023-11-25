@@ -1,0 +1,57 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div id="menu">
+<div id="seleDash"></div>
+<a1 href="#" style="color: #004BE3;">Dashboard</a1>
+<img class="dashboard" src="~/img/tela-principal/dashboard.png"></img>
+<a2 href="#" style="color:white">Estoque</a2>
+<img class="estoque" src="~/img/tela-principal/estoque.png"></img>
+<a3 href="#" style="color: white;">Vendas</a3>
+<img class="vendas" src="~/img/tela-principal/sales.png"></img>
+<a4 href="#" style="color: white;">Animais</a4>
+<img class="animais" src="~/img/tela-principal/animais.png"></img>
+<a5 href="#" style="color: white;">Banho e tosa</a5>
+<img class="tesoura" src="~/img/tela-principal/tesoura.png"></img>
+</div>
+<div id="quadrados">
+<div class="quadrado1">
+    <l1 style="color:white">Estoque</l1>
+    <img class="quadrado12" src="~/img/tela-principal/sales22.png"></img>
+    <l12 style="color: white;">@Model.totalVenda</l12>
+    <l121 style="color:white">Total de vendas</l121>
+</div>
+<div class="quadrado2">
+    <img class="quadrado13" src="~/img/tela-principal/sales2.png"></img>
+    <l21 style="color: white;">@Model.totalProdutosCadastrados</l21>
+    <l22 style="color:white">Produtos cadastrados</l22>
+</div>
+<div class="quadrado3">
+    <l31 style="color: white;">0</l31>
+    <l32 style="color:white">xxxxxxxxx</l32>
+</div>
+<div class="quadrado4">
+    <l2 style="color: white;">Banho e tosa</l2>
+    <img class="quadrado44" src="~/img/tela-principal/atendidos.png"></img>
+    <l41 style="color: white;">@Model.totalServicos</l41>
+    <l42 style="color:white">Serviços</l42>
+</div>
+<div class="quadrado5">
+<img class="quadrado55" src="~/img/tela-principal/pendente.png"></img>
+<l51 style="color: white;">@Model.totalServicosPendentes</l51>
+<l52 style="color:white">Serviços pendentes</l52>
+</div>
+<div class="quadrado6">
+    <l61 style="color: white;">0</l61>
+<l62 style="color:white">xxxxxxxxx</l62>
+</div>
+<div class="quadrado7">
+    <img class="grafico" src="~/img/tela-principal/grafico.png"></img>
+</div>
+<div class="quadrado8">
+    <l3 style="color:white;">Algo</l3>
+</div>
+</div>

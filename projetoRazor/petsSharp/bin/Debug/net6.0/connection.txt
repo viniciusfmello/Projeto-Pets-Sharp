@@ -1,0 +1,1 @@
+Server=trabalhopetssharp.database.windows.net;Database=PetsSharp;User Id=AzureSA;Password=PetsSharp2023;
