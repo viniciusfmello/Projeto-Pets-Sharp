@@ -5,40 +5,57 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = petsSharp
 build_property.RootNamespace = petsSharp
-build_property.ProjectDir = C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\
+build_property.ProjectDir = C:\trabalhoTI\Projeto-Pets-Sharp\projetoRazor\petsSharp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp
+build_property.MSBuildProjectDirectory = C:\trabalhoTI\Projeto-Pets-Sharp\projetoRazor\petsSharp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/luanp/OneDrive/Área de Trabalho/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/Error.cshtml]
+[C:/trabalhoTI/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/addProduto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRkUHJvZHV0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/trabalhoTI/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/cadastrarFornecedor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2FkYXN0cmFyRm9ybmVjZWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/trabalhoTI/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/trabalhoTI/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanp/OneDrive/Área de Trabalho/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/Index.cshtml]
+[C:/trabalhoTI/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/estoque.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZXN0b3F1ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/trabalhoTI/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanp/OneDrive/Área de Trabalho/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/Privacy.cshtml]
+[C:/trabalhoTI/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanp/OneDrive/Área de Trabalho/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/trabalhoTI/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanp/OneDrive/Área de Trabalho/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/_ViewImports.cshtml]
+[C:/trabalhoTI/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanp/OneDrive/Área de Trabalho/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/_ViewStart.cshtml]
+[C:/trabalhoTI/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/luanp/OneDrive/Área de Trabalho/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/Shared/_Layout.cshtml]
+[C:/trabalhoTI/Projeto-Pets-Sharp/projetoRazor/petsSharp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-d1po9rfk1c
