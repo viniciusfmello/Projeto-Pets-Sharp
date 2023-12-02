@@ -7,6 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="TelasEstoque\**" />
+    <Content Remove="TelasEstoque\**" />
+    <EmbeddedResource Remove="TelasEstoque\**" />
+    <None Remove="TelasEstoque\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\cadastrarProduto.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\cadastrarProduto.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
   </ItemGroup>
 
@@ -17,7 +32,27 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\img\" />
+    <None Include="wwwroot\img\Imagens\animais.png" />
+    <None Include="wwwroot\img\Imagens\atendidos.png" />
+    <None Include="wwwroot\img\Imagens\dashboard.png" />
+    <None Include="wwwroot\img\Imagens\estoque.png" />
+    <None Include="wwwroot\img\Imagens\gerencia.png" />
+    <None Include="wwwroot\img\Imagens\grafico.png" />
+    <None Include="wwwroot\img\Imagens\lupapng.png" />
+    <None Include="wwwroot\img\Imagens\pendente.png" />
+    <None Include="wwwroot\img\Imagens\profileicon.png" />
+    <None Include="wwwroot\img\Imagens\sales.png" />
+    <None Include="wwwroot\img\Imagens\sales2.png" />
+    <None Include="wwwroot\img\Imagens\sales22.png" />
+    <None Include="wwwroot\img\Imagens\tesoura.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\cadastrarProduto.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\cadastrarProduto.cshtml" />
   </ItemGroup>
 
 </Project>

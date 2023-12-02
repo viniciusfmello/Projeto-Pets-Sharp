@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C0y8IgBlre4kgkZ03ja4J5pR2zM3RaIKWDejpzalQmE=",
+  "Hash": "5AIWRI9uVidfVno5JwEZWdJ7mMMNyndWF19oaVxBrHA=",
   "Source": "petsSharp",
   "BasePath": "_content/petsSharp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "petsSharp\\wwwroot",
       "Source": "petsSharp",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\petsSharp.styles.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\petsSharp.styles.css",
       "SourceId": "petsSharp",
       "SourceType": "Computed",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "petsSharp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\petsSharp.styles.css"
+      "OriginalItemSpec": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\petsSharp.styles.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\petsSharp.bundle.scp.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\petsSharp.bundle.scp.css",
       "SourceId": "petsSharp",
       "SourceType": "Computed",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "petsSharp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,64 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\petsSharp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\petsSharp.bundle.scp.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\css\\cadastro-fornecedor.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "css/cadastro-fornecedor.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cadastro-fornecedor.css"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\css\\cadastro-produto.css",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "css/cadastro-produto.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cadastro-produto.css"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\css\\pagina-login.css",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "css/pagina-login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pagina-login.css"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\css\\site.css",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +119,27 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\css\\style-layout.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\css\\style-estoque.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "css/style-estoque.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style-estoque.css"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\css\\style-layout.css",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "css/style-layout.css",
       "AssetKind": "All",
@@ -85,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style-layout.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\favicon.ico",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -102,10 +170,231 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\animais.png",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\Imagens\\animais.png",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "img/Imagens/animais.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Imagens\\animais.png"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\Imagens\\atendidos.png",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "img/Imagens/atendidos.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Imagens\\atendidos.png"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\Imagens\\dashboard.png",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "img/Imagens/dashboard.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Imagens\\dashboard.png"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\Imagens\\estoque.png",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "img/Imagens/estoque.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Imagens\\estoque.png"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\Imagens\\gerencia.png",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "img/Imagens/gerencia.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Imagens\\gerencia.png"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\Imagens\\grafico.png",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "img/Imagens/grafico.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Imagens\\grafico.png"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\Imagens\\lupapng.png",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "img/Imagens/lupapng.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Imagens\\lupapng.png"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\Imagens\\pendente.png",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "img/Imagens/pendente.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Imagens\\pendente.png"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\Imagens\\profileicon.png",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "img/Imagens/profileicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Imagens\\profileicon.png"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\Imagens\\sales.png",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "img/Imagens/sales.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Imagens\\sales.png"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\Imagens\\sales2.png",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "img/Imagens/sales2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Imagens\\sales2.png"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\Imagens\\sales22.png",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "img/Imagens/sales22.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Imagens\\sales22.png"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\Imagens\\tesoura.png",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "BasePath": "_content/petsSharp",
+      "RelativePath": "img/Imagens/tesoura.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Imagens\\tesoura.png"
+    },
+    {
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\animais.png",
+      "SourceId": "petsSharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "img/tela-principal/animais.png",
       "AssetKind": "All",
@@ -119,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tela-principal\\animais.png"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\atendidos.png",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\atendidos.png",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "img/tela-principal/atendidos.png",
       "AssetKind": "All",
@@ -136,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tela-principal\\atendidos.png"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\dashboard.png",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\dashboard.png",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "img/tela-principal/dashboard.png",
       "AssetKind": "All",
@@ -153,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tela-principal\\dashboard.png"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\estoque.png",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\estoque.png",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "img/tela-principal/estoque.png",
       "AssetKind": "All",
@@ -170,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tela-principal\\estoque.png"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\gerencia.png",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\gerencia.png",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "img/tela-principal/gerencia.png",
       "AssetKind": "All",
@@ -187,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tela-principal\\gerencia.png"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\grafico.png",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\grafico.png",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "img/tela-principal/grafico.png",
       "AssetKind": "All",
@@ -204,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tela-principal\\grafico.png"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\lupapng.png",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\lupapng.png",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "img/tela-principal/lupapng.png",
       "AssetKind": "All",
@@ -221,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tela-principal\\lupapng.png"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\pendente.png",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\pendente.png",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "img/tela-principal/pendente.png",
       "AssetKind": "All",
@@ -238,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tela-principal\\pendente.png"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\profileicon.png",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\profileicon.png",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "img/tela-principal/profileicon.png",
       "AssetKind": "All",
@@ -255,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tela-principal\\profileicon.png"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\sales.png",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\sales.png",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "img/tela-principal/sales.png",
       "AssetKind": "All",
@@ -272,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tela-principal\\sales.png"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\sales2.png",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\sales2.png",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "img/tela-principal/sales2.png",
       "AssetKind": "All",
@@ -289,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tela-principal\\sales2.png"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\sales22.png",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\sales22.png",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "img/tela-principal/sales22.png",
       "AssetKind": "All",
@@ -306,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tela-principal\\sales22.png"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\tesoura.png",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\img\\tela-principal\\tesoura.png",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "img/tela-principal/tesoura.png",
       "AssetKind": "All",
@@ -323,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tela-principal\\tesoura.png"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\js\\site.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\js\\site.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -340,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -357,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -374,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -391,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -408,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -425,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -442,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -459,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -476,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -493,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -510,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -527,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -544,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -561,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -578,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -595,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -612,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -629,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -646,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -663,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -680,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -697,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -714,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -731,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -748,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -765,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -782,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -799,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -816,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -833,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -850,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -867,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -884,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -901,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -918,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -935,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -952,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -969,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -986,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1003,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1020,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1037,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1054,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1071,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1088,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1105,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1122,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1139,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1156,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1173,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1190,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1207,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1224,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1241,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1258,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1275,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1292,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "petsSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "H:\\trabalhoTI\\petsSharp\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
+      "ContentRoot": "C:\\trabalhoTI\\Projeto-Pets-Sharp\\projetoRazor\\petsSharp\\wwwroot\\",
       "BasePath": "_content/petsSharp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
