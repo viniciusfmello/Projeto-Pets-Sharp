@@ -115,3 +115,43 @@ C:\trabalhoTI\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\scopedc
 C:\trabalhoTI\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.csproj.CopyComplete
 C:\trabalhoTI\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.genruntimeconfig.cache
 C:\trabalhoTI\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\ref\petsSharp.dll
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\appsettings.json
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\petsSharp.staticwebassets.runtime.json
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\petsSharp.exe
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\connection.txt
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\petsSharp.deps.json
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\petsSharp.runtimeconfig.json
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\petsSharp.dll
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\petsSharp.pdb
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.csproj.AssemblyReference.cache
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.AssemblyInfoInputs.cache
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.AssemblyInfo.cs
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.csproj.CoreCompileInputs.cache
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.RazorAssemblyInfo.cache
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.RazorAssemblyInfo.cs
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.sourcelink.json
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\staticwebassets\msbuild.petsSharp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\staticwebassets\msbuild.build.petsSharp.props
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.petsSharp.props
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.petsSharp.props
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\scopedcss\bundle\petsSharp.styles.css
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\scopedcss\projectbundle\petsSharp.bundle.scp.css
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.csproj.CopyComplete
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.dll
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\refint\petsSharp.dll
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.pdb
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\petsSharp.genruntimeconfig.cache
+C:\Users\luanp\OneDrive\Área de Trabalho\Projeto-Pets-Sharp\projetoRazor\petsSharp\obj\Debug\net6.0\ref\petsSharp.dll

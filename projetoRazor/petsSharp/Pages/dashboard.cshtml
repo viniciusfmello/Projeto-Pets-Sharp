@@ -4,53 +4,54 @@
     ViewData["Title"] = "Home page";
 }
 <div id="menu">
-    <div class="selecionado"></div>
-    <a1 href="#" style="color: #004BE3;">Dashboard</a1>
-    <img class="dashboard" src="~/img/tela-principal/dashboard.png"></img>
-    <a2 href="#" style="color:white">Estoque</a2>
+    <div class="selecionado">
+        <a class="textoDashboard" href="#" style="color: #004BE3;">Dashboard</a>
+        <img class="dashboard" src="~/img/tela-principal/dashboard.png"></img>
+    </div>
+    <a class="textoEstoque" href="#" style="color:white">Estoque</a>
     <img class="estoque" src="~/img/tela-principal/estoque.png"></img>
-    <a3 href="#" style="color: white;">Vendas</a3>
+    <a class="textoVendas" href="#" style="color: white;">Vendas</a>
     <img class="vendas" src="~/img/tela-principal/sales.png"></img>
-    <a4 href="#" style="color: white;">Animais</a4>
+    <a class="textoAnimais" href="#" style="color: white;">Animais</a>
     <img class="animais" src="~/img/tela-principal/animais.png"></img>
-    <a5 href="#" style="color: white;">Banho e tosa</a5>
+    <a class="textoBanhoetosa" href="#" style="color: white;">Banho e tosa</a>
     <img class="tesoura" src="~/img/tela-principal/tesoura.png"></img>
 </div>
 <div>
     <div class="quadrado1">
-        <l1 style="color:white">Estoque</l1>
+        <p class="textoEstoque" style="color:white">Estoque</p>
         <img class="imagemQuadrado1" src="~/img/tela-principal/sales22.png"></img>
-        <l12 style="color: white;">@Model.totalVenda</l12>
-        <l121 style="color:white">Total de vendas</l121>
+        <p class="textoValorVendas" style="color: white;">@Model.totalVenda</p>
+        <p class="textoTotaldeVendas" style="color:white">Total de vendas</p>
     </div>
     <div class="quadrado2">
         <img class="imagemQuadrado2" src="~/img/tela-principal/sales2.png"></img>
-        <l21 style="color: white;">@Model.totalProdutosCadastrados</l21>
-        <l22 style="color:white">Produtos cadastrados</l22>
+        <p class="textoValorProdutos" style="color: white;">@Model.totalProdutosCadastrados</p>
+        <p class="textoProdutosCadastrados" style="color:white">Produtos cadastrados</p>
     </div>
     <div class="quadrado3">
-        <l31 style="color: white;">@Model.totalFornecedores</l31>
-        <l32 style="color:white">Total de fornecedores</l32>
+        <p class="textoValorFornecedores"style="color: white;">@Model.totalFornecedores</p>
+        <p class="textoTotaldeFornecedores"style="color:white">Total de fornecedores</p>
     </div>
     <div class="quadrado4">
-        <l2 style="color: white;">Banho e tosa</l2>
+        <p class="textoBanhoeTosa" style="color: white;">Banho e tosa</p>
         <img class="imagemQuadrado4" src="~/img/tela-principal/atendidos.png"></img>
-        <l41 style="color: white;">@Model.totalServicos</l41>
-        <l42 style="color:white">Serviços</l42>
+        <p class="textoValorServicos""" style="color: white;">@Model.totalServicos</p>
+        <p class="textoServicos" style="color:white">Serviços</p>
     </div>
     <div class="quadrado5">
         <img class="imagemQuadrado5" src="~/img/tela-principal/pendente.png"></img>
-        <l51 style="color: white;">@Model.totalServicosPendentes</l51>
-        <l52 style="color:white">Serviços pendentes</l52>
+        <p class="textoValorPendentes" style="color: white;">@Model.totalServicosPendentes</p>
+        <p class="textoServicosPendentes" style="color:white">Serviços pendentes</p>
     </div>
     <div class="quadrado6">
-        <l61 style="color: white;">R$ @Model.valorTotal</l61>
-        <l62 style="color:white">Valor total dos produtos</l62>
+        <p class="textoValorTotal" style="color: white;">R$ @Model.valorTotal</p>
+        <p class="textoValorTotalProdutos" style="color:white">Valor total dos produtos</p>
     </div>
     <div class="quadrado7">
         <img class="grafico" src="~/img/tela-principal/grafico.png"></img>
     </div>
     <div class="quadrado8">
-        <l3 style="color:white;">Algo</l3>
+        <p class="textoAlgo" style="color:white;">Algo</p>
     </div>
 </div>

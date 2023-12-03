@@ -21,65 +21,66 @@
       </div>
     </header>
     <main>
-      <div id="menu">
-        <div class="selecionado"></div>
-        <a1 href="#" style="color: white;">Dashboard</a1>
-        <img class="dashboard" src="~/img/imagens/dashboard.png"></img>
-        <a2 href="#" style="color:white;">Estoque</a2>
-        <img class="estoque" src="~/img/imagens/estoque.png"></img>
-        <a22 href="#" style="color: white">Cadastrar produto</a22>
-        <a23 href="#" style="color: #004BE3;">Cadastrar fornecedor</a23>
-        <a24 href="#" style="color: white;">Gerenciar estoque</a24>
-        <a3 href="#" style="color: white;">Vendas</a3>
-        <img class="vendas" src="~/img/imagens/sales.png"></img>
-        <a4 href="#" style="color: white;">Animais</a4>
-        <img class="animais" src="~/img/imagens/animais.png"></img>
-        <a5 href="#" style="color: white;">Banho e tosa</a5>
-        <img class="tesoura" src="~/img/imagens/tesoura.png"></img>
-      </div>
+        <div id="menu">
+            <a class="textoDashboard" href="#" style="color: white;">Dashboard</a>
+            <img class="dashboard" src="~/img/tela-principal/dashboard.png"></img>
+            <div class="selecionado">
+                <a class="textoEstoque" href="#" style="color: white">Estoque</a>
+                <img class="estoque" src="~/img/tela-principal/estoque.png"></img>
+                <a class="textoCadastrarProduto" style="color: white;">Cadastrar produto</a>
+                <a class="textoCadastrarFornecedor" style="color: #004BE3;">Cadastrar fornecedor</a>
+                <a class="textoGerenciarEstoque" style="color: white;">Gerenciar estoque</a>
+            </div>
+            <a class="textoVendas" href="#" style="color: white;">Vendas</a>
+            <img class="vendas" src="~/img/tela-principal/sales.png"></img>
+            <a class="textoAnimais" href="#" style="color: white;">Animais</a>
+            <img class="animais" src="~/img/tela-principal/animais.png"></img>
+            <a class="textoBanhoetosa" href="#" style="color: white;">Banho e tosa</a>
+            <img class="tesoura" src="~/img/tela-principal/tesoura.png"></img>
+        </div>
       <form method="post">
       <div class="quadradoCentral">
-        <a1>Nome:</a1>
+        <p class="textoNome">Nome:</p>
         <div class="quadradoNome">
             <label  class="form-label"></label>
             <input asp-for="@Model.Nome" type="text" class="form-control border-black" id="campoNome" style="background-color: #151A30; color:white;" required>
           </div>
-        <a2>Categoria:</a2>
+        <p class="textoCategoria">Categoria:</p>
         <div class="quadradoCategoria">
             <label  class="form-label"></label>
             <input asp-for="@Model.Categoria" type="text" class="form-control border-black" id="campoCategoria" style="background-color: #151A30; color:white;" required>
         </div>
-        <a3>Endereço:</a3>
+        <p class="textoEndereco">Endereço:</p>
         <div class="quadradoEndereco">
             <label  class="form-label"></label>
             <input asp-for="@Model.Endereco" type="text" class="form-control border-black" id="campoEndereco" style="background-color: #151A30; color:white;" required>
         </div>
-        <a4>Bairro:</a4>
+        <p class="textoBairro">Bairro:</p>
         <div class="quadradoBairro">
             <label  class="form-label"></label>
             <input asp-for="@Model.Bairro" type="text" class="form-control border-black" id="campoBairro" style="background-color: #151A30; color:white;" required>
         </div>
-        <a5>Cidade:</a5>
+        <p class="textoCidade">Cidade:</p>
         <div class="quadradoCidade">
             <label  class="form-label"></label>
             <input asp-for="@Model.Cidade" type="text" class="form-control border-black" id="campoCidade" style="background-color: #151A30; color:white;" required>
         </div>
-        <a6>Estado:</a6>
+        <p class="textoEstado">Estado:</p>
         <div class="quadradoEstado">
             <label  class="form-label"></label>
             <input asp-for="@Model.Estado" type="text" class="form-control border-black" id="campoEstado" style="background-color: #151A30; color:white;" required>
         </div>
-        <a7>CNPJ:</a7>
+        <p class="textoCNPJ">CNPJ:</p>
         <div class="quadradoCNPJ">
             <label  class="form-label"></label>
             <input asp-for="@Model.CNPJ" type="text" class="form-control border-black" id="campoCNPJ" style="background-color: #151A30; color:white;" required >
         </div>
-        <a8>Contato:</a8>
+        <p class="textoContato">Contato:</p>
         <div class="quadradoContato">
             <label  class="form-label"></label>
             <input asp-for="@Model.Contato" type="text" class="form-control border-black" id="campoContato" style="background-color: #151A30; color:white;" required>
         </div>
-        <button class="btn btn-success">Cadastrar</button>
+        <button class="btn btn-success botaoCadastrar">Cadastrar</button>
       </div>
       </form>
     </main>

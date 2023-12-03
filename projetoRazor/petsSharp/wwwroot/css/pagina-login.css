@@ -5,54 +5,57 @@
         width: 400px;
         height: 300px;
         position: absolute;
-        left: 33%;
-        top: 25%;
         border-radius: 10%;
         opacity: 80%;
+        top: 27%;
+        left: 33%;
     }
 
-    a1 {
+    .textoPetsharp {
         font-size: 40px;
         color: white;
-        top: -24%;
+        top: -21%;
         left: 28%;
         position: relative;
+    }
+
+    .textoUsuario {
+        width: 80px;
+        position: relative;
+        top: -10%;
+        left: 13%;
+        color: white;
+    }
+
+    .textoSenha {
+        width: 80px;
+        position: relative;
+        top: -20%;
+        left: 13%;
+        color: white;
     }
 
     .usuario {
         width: 300px;
         position: relative;
-        top: 15%;
+        top: -15%;
         left: 13%;
     }
 
     .senha {
         width: 300px;
         position: relative;
-        top: 17%;
+        top: -25%;
         left: 13%;
     }
 
-    a2 {
-        color: white;
-        position: relative;
-        top: 14%;
-        left: -34%;
-    }
-
-    a3 {
-        color: white;
-        position: relative;
-        top: 13%;
-        left: 13%;
-    }
 
     .entrar {
         align-items: center;
         position: relative;
         width: 120px;
         height: 30px;
-        left: 28%;
+        left: 38%;
     }
 
 }
@@ -65,13 +68,13 @@
         width: 400px;
         height: 300px;
         position: absolute;
-        left: 34%;
-        top: 27%;
         border-radius: 10%;
         opacity: 80%;
+        top: 27%;
+        left: 33%;
     }
 
-    a1 {
+    .textoPetsharp {
         font-size: 40px;
         color: white;
         top: -21%;
@@ -79,40 +82,43 @@
         position: relative;
     }
 
+    .textoUsuario {
+        width: 80px;
+        position: relative;
+        top: -10%;
+        left: 13%;
+        color: white;
+    }
+
+    .textoSenha {
+        width: 80px;
+        position: relative;
+        top: -20%;
+        left: 13%;
+        color: white;
+    }
+
     .usuario {
         width: 300px;
         position: relative;
-        top: 8%;
+        top: -15%;
         left: 13%;
     }
 
     .senha {
         width: 300px;
         position: relative;
-        top: 13%;
+        top: -25%;
         left: 13%;
     }
 
-    a2 {
-        color: white;
-        position: relative;
-        top: 6%;
-        left: -34%;
-    }
-
-    a3 {
-        color: white;
-        position: relative;
-        top: 8%;
-        left: 13%;
-    }
 
     .entrar {
         align-items:center;
         position: relative;
         width: 120px;
         height: 30px;
-        left: 28%;
+        left: 38%;
     }
 }
 
@@ -122,54 +128,57 @@
         width: 400px;
         height: 300px;
         position: absolute;
-        left: 43%;
-        top: 27%;
         border-radius: 10%;
         opacity: 80%;
+        top: 27%;
+        left: 33%;
     }
 
-    a1 {
+    .textoPetsharp {
         font-size: 40px;
         color: white;
-        top: -23%;
-        left: 29%;
+        top: -21%;
+        left: 28%;
         position: relative;
+    }
+
+    .textoUsuario {
+        width: 80px;
+        position: relative;
+        top: -10%;
+        left: 13%;
+        color: white;
+    }
+
+    .textoSenha {
+        width: 80px;
+        position: relative;
+        top: -20%;
+        left: 13%;
+        color: white;
     }
 
     .usuario {
         width: 300px;
         position: relative;
-        top: 10%;
+        top: -15%;
         left: 13%;
     }
 
     .senha {
         width: 300px;
         position: relative;
-        top: 15%;
+        top: -25%;
         left: 13%;
     }
 
-    a2 {
-        color: white;
-        position: relative;
-        top: 7%;
-        left: -32%;
-    }
-
-    a3 {
-        color: white;
-        position: relative;
-        top: 9%;
-        left: 13%;
-    }
 
     .entrar {
         align-items: center;
         position: relative;
         width: 120px;
         height: 30px;
-        left: 28%;
+        left: 38%;
     }
 }
 

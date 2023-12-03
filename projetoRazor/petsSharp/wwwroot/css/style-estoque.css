@@ -1,6 +1,5 @@
 ﻿
 @media (max-width: 1024px) {
-    /* MENU LATERAL */
     #cabecalho {
         height: 80px;
         background-color: #212B46;
@@ -25,98 +24,107 @@
         width: 155px;
         height: 100vh;
         background-color: #212B46;
+        position: fixed;
+        left: 0;
     }
 
-        #menu a1 {
+        #menu .textoDashboard {
             position: relative;
-            top: -8%;
+            top: 13%;
             left: 36%;
+            text-decoration: none;
         }
 
         #menu .selecionado {
             position: relative;
             width: 155px;
-            height: 159px;
+            height: 149px;
             background-color: #151A30;
-            top: 12%;
+            top: 13%;
         }
 
     .dashboard {
         position: relative;
         width: 42px;
-        top: -8%;
+        top: 12%;
         right: 48%;
     }
 
-    #menu a2 {
+    #menu .textoEstoque {
         position: relative;
-        top: -5%;
+        top: 14%;
         left: 35%;
+        text-decoration: none;
     }
-
-    #menu a22 {
-        position: relative;
-        top: -4%;
-        left: 4%;
-    }
-
-    #menu a23 {
-        position: relative;
-        top: -3%;
-        left: 4%;
-    }
-
-    #menu a24 {
-        position: relative;
-        top: -2%;
-        left: 4%;
-    }
-
 
     .estoque {
         position: relative;
         width: 42px;
-        top: -5%;
-        right: 35%;
+        top: 16%;
+        right: 41%;
     }
 
-    #menu a3 {
+    #menu .textoVendas {
         position: relative;
-        top: 4%;
+        top: 22%;
         left: 35%;
+        text-decoration: none;
     }
 
     .vendas {
         position: relative;
         width: 42px;
-        top: 3%;
+        top: 20%;
         right: 30%;
     }
 
-    #menu a4 {
+    #menu .textoAnimais {
         position: relative;
-        top: 7%;
+        top: 25%;
         left: 35%;
+        text-decoration: none;
     }
 
     .animais {
         position: relative;
         width: 55px;
-        top: 6%;
+        top: 24%;
         right: 37%;
     }
 
-    #menu a5 {
+    #menu .textoBanhoetosa {
         position: relative;
-        top: 8%;
+        top: 27%;
         left: 35%;
+        text-decoration: none;
     }
 
     .tesoura {
         position: relative;
         width: 41px;
-        top: 8%;
+        top: 27%;
         right: 55%;
+    }
+
+    #menu .textoCadastrarProduto {
+        position: relative;
+        top: 12%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoCadastrarFornecedor {
+        position: relative;
+        top: 15%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerenciarEstoque {
+        position: relative;
+        top: 16%;
+        left: 4%;
+        text-decoration: none;
     }
 
     /*QUADRADO CENTRAL*/
@@ -135,26 +143,6 @@
         top: -9%;
     }
 
-    #textos a1 {
-        position: relative;
-        color: white;
-        left: 4%;
-        font-size: 20px;
-    }
-
-    #textos a2 {
-        position: relative;
-        color: white;
-        left: 15%;
-        font-size: 20px;
-    }
-
-    #textos a3 {
-        position: relative;
-        color: white;
-        left: 30%;
-        font-size: 20px;
-    }
 
     .produtos {
         position: relative;
@@ -186,12 +174,6 @@
         top: 10%;
     }
 
-    .produtos a4 {
-        position: relative;
-        color: white;
-        left: 56%;
-        top: 10%;
-    }
     .custom-dark-bg {
         background-color: #151A30 !important;
     }
@@ -202,7 +184,6 @@
     .custom-dark-bg {
         background-color: #151A30 !important;
     }
-    /* MENU LATERAL */
     #cabecalho {
         height: 80px;
         background-color: #212B46;
@@ -227,98 +208,107 @@
         width: 155px;
         height: 100vh;
         background-color: #212B46;
+        position: fixed;
+        left: 0;
     }
 
-        #menu a1 {
+        #menu .textoDashboard {
             position: relative;
-            top: -8%;
+            top: 13%;
             left: 36%;
+            text-decoration: none;
         }
 
         #menu .selecionado {
             position: relative;
             width: 155px;
-            height: 150px;
+            height: 149px;
             background-color: #151A30;
-            top: 25%;
+            top: 13%;
         }
 
     .dashboard {
         position: relative;
         width: 42px;
-        top: -8%;
+        top: 12%;
         right: 48%;
     }
 
-    #menu a2 {
+    #menu .textoEstoque {
         position: relative;
-        top: -5%;
+        top: 14%;
         left: 35%;
+        text-decoration: none;
     }
-
-    #menu a22 {
-        position: relative;
-        top: -4%;
-        left: 4%;
-    }
-
-    #menu a23 {
-        position: relative;
-        top: -3%;
-        left: 4%;
-    }
-
-    #menu a24 {
-        position: relative;
-        top: -2%;
-        left: 4%;
-    }
-
 
     .estoque {
         position: relative;
         width: 42px;
-        top: -5%;
-        right: 35%;
+        top: 16%;
+        right: 41%;
     }
 
-    #menu a3 {
+    #menu .textoVendas {
         position: relative;
-        top: 4%;
+        top: 22%;
         left: 35%;
+        text-decoration: none;
     }
 
     .vendas {
         position: relative;
         width: 42px;
-        top: 3%;
+        top: 20%;
         right: 30%;
     }
 
-    #menu a4 {
+    #menu .textoAnimais {
         position: relative;
-        top: 7%;
+        top: 25%;
         left: 35%;
+        text-decoration: none;
     }
 
     .animais {
         position: relative;
         width: 55px;
-        top: 6%;
+        top: 24%;
         right: 37%;
     }
 
-    #menu a5 {
+    #menu .textoBanhoetosa {
         position: relative;
-        top: 8%;
+        top: 27%;
         left: 35%;
+        text-decoration: none;
     }
 
     .tesoura {
         position: relative;
         width: 41px;
-        top: 8%;
+        top: 27%;
         right: 55%;
+    }
+
+    #menu .textoCadastrarProduto {
+        position: relative;
+        top: 12%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoCadastrarFornecedor {
+        position: relative;
+        top: 15%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerenciarEstoque {
+        position: relative;
+        top: 16%;
+        left: 4%;
+        text-decoration: none;
     }
 
     /*QUADRADO CENTRAL*/
@@ -337,26 +327,6 @@
         top: -9%;
     }
 
-    #textos a1 {
-        position: relative;
-        color: white;
-        left: 4%;
-        font-size: 20px;
-    }
-
-    #textos a2 {
-        position: relative;
-        color: white;
-        left: 15%;
-        font-size: 20px;
-    }
-
-    #textos a3 {
-        position: relative;
-        color: white;
-        left: 30%;
-        font-size: 20px;
-    }
 
     .produtos {
         position: relative;
@@ -388,19 +358,12 @@
         top: 10%;
     }
 
-    .produtos a4 {
-        position: relative;
-        color: white;
-        left: 60%;
-        top: 10%;
-    }
 }
 
 @media (min-width: 1440px) {
     .custom-dark-bg {
         background-color: #151A30 !important;
     }
-    /* MENU LATERAL */
     #cabecalho {
         height: 80px;
         background-color: #212B46;
@@ -425,18 +388,21 @@
         width: 155px;
         height: 100vh;
         background-color: #212B46;
+        position: fixed;
+        left: 0;
     }
 
-        #menu a1 {
+        #menu .textoDashboard {
             position: relative;
-            top: -8%;
+            top: 13%;
             left: 36%;
+            text-decoration: none;
         }
 
         #menu .selecionado {
             position: relative;
             width: 155px;
-            height: 167px;
+            height: 149px;
             background-color: #151A30;
             top: 13%;
         }
@@ -444,79 +410,85 @@
     .dashboard {
         position: relative;
         width: 42px;
-        top: -8%;
+        top: 12%;
         right: 48%;
     }
 
-    #menu a2 {
+    #menu .textoEstoque {
         position: relative;
-        top: -5%;
+        top: 14%;
         left: 35%;
+        text-decoration: none;
     }
-
-    #menu a22 {
-        position: relative;
-        top: -4%;
-        left: 4%;
-    }
-
-    #menu a23 {
-        position: relative;
-        top: -3%;
-        left: 4%;
-    }
-
-    #menu a24 {
-        position: relative;
-        top: -2%;
-        left: 4%;
-    }
-
 
     .estoque {
         position: relative;
         width: 42px;
-        top: -5%;
-        right: 35%;
+        top: 16%;
+        right: 41%;
     }
 
-    #menu a3 {
+    #menu .textoVendas {
         position: relative;
-        top: 4%;
+        top: 22%;
         left: 35%;
+        text-decoration: none;
     }
 
     .vendas {
         position: relative;
         width: 42px;
-        top: 3%;
+        top: 20%;
         right: 30%;
     }
 
-    #menu a4 {
+    #menu .textoAnimais {
         position: relative;
-        top: 7%;
+        top: 25%;
         left: 35%;
+        text-decoration: none;
     }
 
     .animais {
         position: relative;
         width: 55px;
-        top: 6%;
+        top: 24%;
         right: 37%;
     }
 
-    #menu a5 {
+    #menu .textoBanhoetosa {
         position: relative;
-        top: 8%;
+        top: 27%;
         left: 35%;
+        text-decoration: none;
     }
 
     .tesoura {
         position: relative;
         width: 41px;
-        top: 8%;
+        top: 27%;
         right: 55%;
+    }
+
+    #menu .textoCadastrarProduto {
+        position: relative;
+        top: 12%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoCadastrarFornecedor {
+        position: relative;
+        top: 15%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerenciarEstoque {
+        position: relative;
+        top: 16%;
+        left: 4%;
+        text-decoration: none;
     }
 
     /*QUADRADO CENTRAL*/
@@ -535,27 +507,7 @@
         top: -9%;
     }
 
-    #textos a1 {
-        position: relative;
-        color: white;
-        left: 4%;
-        font-size: 20px;
-    }
-
-    #textos a2 {
-        position: relative;
-        color: white;
-        left: 15%;
-        font-size: 20px;
-    }
-
-    #textos a3 {
-        position: relative;
-        color: white;
-        left: 30%;
-        font-size: 20px;
-    }
-
+    
     .produtos {
         position: relative;
         background-color: #151A30;
@@ -586,10 +538,5 @@
         top: 10%;
     }
 
-    .produtos a4 {
-        position: relative;
-        color: white;
-        left: 60%;
-        top: 10%;
-    }
+
 }

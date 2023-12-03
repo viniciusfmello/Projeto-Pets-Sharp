@@ -1,5 +1,4 @@
 ﻿@media (max-width: 1024px) {
-    /* MENU LATERAL */
     #cabecalho {
         height: 80px;
         background-color: #212B46;
@@ -24,481 +23,21 @@
         width: 155px;
         height: 100vh;
         background-color: #212B46;
+        position: fixed;
+        left: 0;
     }
 
-        #menu a1 {
+        #menu .textoDashboard {
             position: relative;
-            top: -8%;
+            top: 13%;
             left: 36%;
+            text-decoration: none;
         }
 
         #menu .selecionado {
             position: relative;
             width: 155px;
-            height: 159px;
-            background-color: #151A30;
-            top: 12%;
-        }
-
-    .dashboard {
-        position: relative;
-        width: 42px;
-        top: -8%;
-        right: 48%;
-    }
-
-    #menu a2 {
-        position: relative;
-        top: -5%;
-        left: 35%;
-    }
-
-    #menu a22 {
-        position: relative;
-        top: -4%;
-        left: 4%;
-    }
-
-    #menu a23 {
-        position: relative;
-        top: -3%;
-        left: 4%;
-    }
-
-    #menu a24 {
-        position: relative;
-        top: -2%;
-        left: 4%;
-    }
-
-
-    .estoque {
-        position: relative;
-        width: 42px;
-        top: -5%;
-        right: 35%;
-    }
-
-    #menu a3 {
-        position: relative;
-        top: 4%;
-        left: 35%;
-    }
-
-    .vendas {
-        position: relative;
-        width: 42px;
-        top: 3%;
-        right: 30%;
-    }
-
-    #menu a4 {
-        position: relative;
-        top: 7%;
-        left: 35%;
-    }
-
-    .animais {
-        position: relative;
-        width: 55px;
-        top: 6%;
-        right: 37%;
-    }
-
-    #menu a5 {
-        position: relative;
-        top: 8%;
-        left: 35%;
-    }
-
-    .tesoura {
-        position: relative;
-        width: 41px;
-        top: 8%;
-        right: 55%;
-    }
-
-    /*QUADRADO CENTRAL*/
-
-    .quadradoCentral {
-        position: absolute;
-        width: 789px;
-        height: 480px;
-        background-color: #212B46;
-        left: 20%;
-        top: 26%;
-    }
-
-    .quadradoNome {
-        position: relative;
-        width: 260px;
-        height: 40px;
-        top: 13%;
-        left: 6%;
-        background-color: #151A30;
-    }
-
-    .quadradoCentral a1 {
-        position: relative;
-        color: white;
-        top: 13%;
-        font-size: 25px;
-        left: 6%;
-    }
-
-    .quadradoCategoria {
-        position: relative;
-        width: 260px;
-        height: 40px;
-        top: -2%;
-        left: 60%;
-        background-color: #151A30;
-    }
-
-    .quadradoCentral a2 {
-        position: relative;
-        color: white;
-        top: -2%;
-        font-size: 25px;
-        left: 60%;
-    }
-
-    .quadradoDescricao {
-        position: relative;
-        width: 705px;
-        height: 100px;
-        top: 3%;
-        left: 6%;
-        background-color: #151A30;
-    }
-
-    .quadradoCentral a3 {
-        position: relative;
-        color: white;
-        top: 3%;
-        font-size: 25px;
-        left: 6%;
-    }
-
-    .quadradoPrecoUnitario {
-        position: relative;
-        width: 260px;
-        height: 40px;
-        top: 8%;
-        left: 6%;
-        background-color: #151A30;
-    }
-
-    .quadradoCentral a4 {
-        position: relative;
-        color: white;
-        top: 8%;
-        font-size: 25px;
-        left: 6%;
-    }
-
-    .quadradoFornecedor {
-        position: relative;
-        width: 260px;
-        height: 40px;
-        top: -7%;
-        left: 60%;
-        background-color: #151A30;
-    }
-
-    .quadradoCentral a5 {
-        position: relative;
-        color: white;
-        top: -7%;
-        font-size: 25px;
-        left: 60%;
-    }
-
-    .quadradoConfirmar {
-        position: relative;
-        width: 220px;
-        height: 40px;
-        background-color: green;
-        top: -5%;
-        left: 36%;
-    }
-
-        .quadradoConfirmar a1 {
-            position: relative;
-            color: white;
-            left: 26%;
-            top: 1%;
-        }
-}
-
-
-@media (min-width: 1025px) and (max-width: 1439px) {
-
-    /* MENU LATERAL */
-    #cabecalho {
-        height: 80px;
-        background-color: #212B46;
-    }
-
-
-        #cabecalho #profileicon {
-            position: relative;
-            width: 50px;
-            height: 50px;
-            top: 18%;
-            left: 90%;
-        }
-
-        #cabecalho a {
-            position: relative;
-            left: 80%;
-            top: 30%;
-        }
-
-    #menu {
-        width: 155px;
-        height: 100vh;
-        background-color: #212B46;
-    }
-
-        #menu a1 {
-            position: relative;
-            top: -8%;
-            left: 36%;
-        }
-
-        #menu .selecionado {
-            position: relative;
-            width: 155px;
-            height: 150px;
-            background-color: #151A30;
-            top: 25%;
-        }
-
-    .dashboard {
-        position: relative;
-        width: 42px;
-        top: -8%;
-        right: 48%;
-    }
-
-    #menu a2 {
-        position: relative;
-        top: -5%;
-        left: 35%;
-    }
-
-    #menu a22 {
-        position: relative;
-        top: -4%;
-        left: 4%;
-    }
-
-    #menu a23 {
-        position: relative;
-        top: -3%;
-        left: 4%;
-    }
-
-    #menu a24 {
-        position: relative;
-        top: -2%;
-        left: 4%;
-    }
-
-
-    .estoque {
-        position: relative;
-        width: 42px;
-        top: -5%;
-        right: 35%;
-    }
-
-    #menu a3 {
-        position: relative;
-        top: 4%;
-        left: 35%;
-    }
-
-    .vendas {
-        position: relative;
-        width: 42px;
-        top: 3%;
-        right: 30%;
-    }
-
-    #menu a4 {
-        position: relative;
-        top: 7%;
-        left: 35%;
-    }
-
-    .animais {
-        position: relative;
-        width: 55px;
-        top: 6%;
-        right: 37%;
-    }
-
-    #menu a5 {
-        position: relative;
-        top: 8%;
-        left: 35%;
-    }
-
-    .tesoura {
-        position: relative;
-        width: 41px;
-        top: 8%;
-        right: 55%;
-    }
-
-    /*QUADRADO CENTRAL*/
-
-    .quadradoCentral {
-        position: absolute;
-        width: 870px;
-        height: 520px;
-        background-color: #212B46;
-        left: 20%;
-        top: 23%;
-    }
-
-    .quadradoNome {
-        position: relative;
-        width: 260px;
-        height: 40px;
-        top: 8%;
-        left: 10%;
-    }
-
-    .quadradoCentral a1 {
-        position: relative;
-        color: white;
-        top: 13%;
-        font-size: 25px;
-        left: 10%;
-    }
-
-    .quadradoCategoria {
-        position: relative;
-        width: 260px;
-        height: 40px;
-        top: -7%;
-        left: 60%;
-    }
-
-    .quadradoCentral a2 {
-        position: relative;
-        color: white;
-        top: -2%;
-        font-size: 25px;
-        left: 60%;
-    }
-
-    .quadradoDescricao {
-        position: relative;
-        width: 705px;
-        height: 100px;
-        top: -2%;
-        left: 10%;
-    }
-
-    .quadradoCentral a3 {
-        position: relative;
-        color: white;
-        top: 3%;
-        font-size: 25px;
-        left: 10%;
-    }
-
-    .quadradoPrecoUnitario {
-        position: relative;
-        width: 260px;
-        height: 40px;
-        top: 3%;
-        left: 10%;
-    }
-
-    .quadradoCentral a4 {
-        position: relative;
-        color: white;
-        top: 8%;
-        font-size: 25px;
-        left: 10%;
-    }
-
-    .quadradoFornecedor {
-        position: relative;
-        width: 260px;
-        height: 40px;
-        top: -12%;
-        left: 60%;
-    }
-
-    .quadradoCentral a5 {
-        position: relative;
-        color: white;
-        top: -7%;
-        font-size: 25px;
-        left: 60%;
-    }
-
-    .quadradoConfirmar {
-        position: relative;
-        width: 220px;
-        height: 40px;
-        background-color: green;
-        top: 1%;
-        left: 38%;
-    }
-
-        .quadradoConfirmar a1 {
-            position: relative;
-            color: white;
-            left: 26%;
-            top: 1%;
-        }
-}
-
-@media (min-width: 1440px) {
-    /* MENU LATERAL */
-    #cabecalho {
-        height: 80px;
-        background-color: #212B46;
-    }
-
-
-        #cabecalho #profileicon {
-            position: relative;
-            width: 50px;
-            height: 50px;
-            top: 18%;
-            left: 90%;
-        }
-
-        #cabecalho a {
-            position: relative;
-            left: 80%;
-            top: 30%;
-        }
-
-    #menu {
-        width: 155px;
-        height: 100vh;
-        background-color: #212B46;
-    }
-
-        #menu a1 {
-            position: relative;
-            top: -8%;
-            left: 36%;
-        }
-
-        #menu .selecionado {
-            position: relative;
-            width: 155px;
-            height: 167px;
+            height: 149px;
             background-color: #151A30;
             top: 13%;
         }
@@ -506,190 +45,659 @@
     .dashboard {
         position: relative;
         width: 42px;
-        top: -8%;
+        top: 12%;
         right: 48%;
     }
 
-    #menu a2 {
+    #menu .textoEstoque {
         position: relative;
-        top: -5%;
+        top: 14%;
         left: 35%;
+        text-decoration: none;
     }
-
-    #menu a22 {
-        position: relative;
-        top: -4%;
-        left: 4%;
-    }
-
-    #menu a23 {
-        position: relative;
-        top: -3%;
-        left: 4%;
-    }
-
-    #menu a24 {
-        position: relative;
-        top: -2%;
-        left: 4%;
-    }
-
 
     .estoque {
         position: relative;
         width: 42px;
-        top: -5%;
-        right: 35%;
+        top: 16%;
+        right: 41%;
     }
 
-    #menu a3 {
+    #menu .textoVendas {
         position: relative;
-        top: 4%;
+        top: 22%;
         left: 35%;
+        text-decoration: none;
     }
 
     .vendas {
         position: relative;
         width: 42px;
-        top: 3%;
+        top: 20%;
         right: 30%;
     }
 
-    #menu a4 {
+    #menu .textoAnimais {
         position: relative;
-        top: 7%;
+        top: 25%;
         left: 35%;
+        text-decoration: none;
     }
 
     .animais {
         position: relative;
         width: 55px;
-        top: 6%;
+        top: 24%;
         right: 37%;
     }
 
-    #menu a5 {
+    #menu .textoBanhoetosa {
         position: relative;
-        top: 8%;
+        top: 27%;
         left: 35%;
+        text-decoration: none;
     }
 
     .tesoura {
         position: relative;
         width: 41px;
-        top: 8%;
+        top: 27%;
         right: 55%;
     }
+
+    #menu .textoCadastrarProduto {
+        position: relative;
+        top: 12%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoCadastrarFornecedor {
+        position: relative;
+        top: 15%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerenciarEstoque {
+        position: relative;
+        top: 16%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+
+
 
     /*QUADRADO CENTRAL*/
 
     .quadradoCentral {
         position: absolute;
-        width: 1025px;
-        height: 678px;
+        width: 870px;
+        height: 490px;
         background-color: #212B46;
         left: 20%;
-        top: 26%;
+        top: 16%;
     }
 
     .quadradoNome {
         position: relative;
         width: 260px;
         height: 40px;
-        top: 13%;
+        top: 8%;
         left: 10%;
-        background-color: #151A30;
     }
 
-    .quadradoCentral a1 {
+    .textoNome {
         position: relative;
         color: white;
-        top: 13%;
+        top: 16%;
         font-size: 25px;
         left: 10%;
+        width: 100px;
     }
 
     .quadradoCategoria {
         position: relative;
         width: 260px;
         height: 40px;
-        top: 1%;
+        top: -12%;
         left: 60%;
-        background-color: #151A30;
     }
 
-    .quadradoCentral a2 {
+    .textoCategoria {
         position: relative;
         color: white;
-        top: 1%;
+        top: -4%;
         font-size: 25px;
         left: 60%;
+        width: 100px;
     }
 
     .quadradoDescricao {
         position: relative;
-        width: 778px;
-        height: 169px;
-        top: 6%;
+        width: 705px;
+        height: 100px;
+        top: -13%;
         left: 10%;
-        background-color: #151A30;
     }
 
-    .quadradoCentral a3 {
+    .textoDescricao {
         position: relative;
         color: white;
-        top: 5%;
+        top: -5%;
         font-size: 25px;
         left: 10%;
+        width: 100px;
     }
 
     .quadradoPrecoUnitario {
         position: relative;
         width: 260px;
         height: 40px;
-        top: 13%;
+        top: -18%;
         left: 10%;
-        background-color: #151A30;
     }
 
-    .quadradoCentral a4 {
+    .textoPrecoUnitario {
         position: relative;
         color: white;
-        top: 12%;
+        top: -10%;
         font-size: 25px;
         left: 10%;
+        width: 160px;
     }
 
     .quadradoFornecedor {
         position: relative;
         width: 260px;
         height: 40px;
-        top: 1%;
+        top: -37%;
         left: 60%;
-        background-color: #151A30;
     }
 
-    .quadradoCentral a5 {
+    .textoFornecedor {
         position: relative;
         color: white;
-        top: 0%;
+        top: -29%;
         font-size: 25px;
+        left: 60%;
+        width: 100px;
+    }
+
+    .btn {
+        position: relative;
+        left: 44%;
+        top: -26%;
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+
+    #cabecalho {
+        height: 80px;
+        background-color: #212B46;
+    }
+
+
+        #cabecalho #profileicon {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            top: 18%;
+            left: 90%;
+        }
+
+        #cabecalho a {
+            position: relative;
+            left: 80%;
+            top: 30%;
+        }
+
+    #menu {
+        width: 155px;
+        height: 100vh;
+        background-color: #212B46;
+        position: fixed;
+        left: 0;
+    }
+
+        #menu .textoDashboard {
+            position: relative;
+            top: 13%;
+            left: 36%;
+            text-decoration: none;
+        }
+
+        #menu .selecionado {
+            position: relative;
+            width: 155px;
+            height: 149px;
+            background-color: #151A30;
+            top: 13%;
+        }
+
+    .dashboard {
+        position: relative;
+        width: 42px;
+        top: 12%;
+        right: 48%;
+    }
+
+    #menu .textoEstoque {
+        position: relative;
+        top: 14%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .estoque {
+        position: relative;
+        width: 42px;
+        top: 16%;
+        right: 41%;
+    }
+
+    #menu .textoVendas {
+        position: relative;
+        top: 22%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .vendas {
+        position: relative;
+        width: 42px;
+        top: 20%;
+        right: 30%;
+    }
+
+    #menu .textoAnimais {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .animais {
+        position: relative;
+        width: 55px;
+        top: 24%;
+        right: 37%;
+    }
+
+    #menu .textoBanhoetosa {
+        position: relative;
+        top: 27%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .tesoura {
+        position: relative;
+        width: 41px;
+        top: 27%;
+        right: 55%;
+    }
+
+    #menu .textoCadastrarProduto {
+        position: relative;
+        top: 12%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoCadastrarFornecedor {
+        position: relative;
+        top: 15%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerenciarEstoque {
+        position: relative;
+        top: 16%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+
+   
+
+    /*QUADRADO CENTRAL*/
+
+    .quadradoCentral {
+        position: absolute;
+        width: 870px;
+        height: 490px;
+        background-color: #212B46;
+        left: 20%;
+        top: 16%;
+    }
+
+    .quadradoNome {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        top: 8%;
+        left: 10%;
+    }
+
+    .textoNome {
+        position: relative;
+        color: white;
+        top: 16%;
+        font-size: 25px;
+        left: 10%;
+        width: 100px;
+    }
+
+    .quadradoCategoria {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        top: -12%;
         left: 60%;
     }
 
-    .quadradoConfirmar {
+    .textoCategoria {
         position: relative;
-        width: 220px;
-        height: 40px;
-        background-color: green;
-        top: 9%;
-        left: 38%;
+        color: white;
+        top: -4%;
+        font-size: 25px;
+        left: 60%;
+        width: 100px;
     }
 
-        .quadradoConfirmar a1 {
+    .quadradoDescricao {
+        position: relative;
+        width: 705px;
+        height: 100px;
+        top: -13%;
+        left: 10%;
+    }
+
+    .textoDescricao {
+        position: relative;
+        color: white;
+        top: -5%;
+        font-size: 25px;
+        left: 10%;
+        width: 100px;
+    }
+
+    .quadradoPrecoUnitario {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        top: -18%;
+        left: 10%;
+    }
+
+    .textoPrecoUnitario {
+        position: relative;
+        color: white;
+        top: -10%;
+        font-size: 25px;
+        left: 10%;
+        width: 160px;
+    }
+
+    .quadradoFornecedor {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        top: -37%;
+        left: 60%;
+    }
+
+    .textoFornecedor {
+        position: relative;
+        color: white;
+        top: -29%;
+        font-size: 25px;
+        left: 60%;
+        width: 100px;
+    }
+
+    .btn {
+        position: relative;
+        left: 44%;
+        top: -26%;
+    }
+}
+
+@media (min-width: 1440px) {
+    #cabecalho {
+        height: 80px;
+        background-color: #212B46;
+    }
+
+
+        #cabecalho #profileicon {
             position: relative;
-            color: white;
-            left: 26%;
-            top: 1%;
+            width: 50px;
+            height: 50px;
+            top: 18%;
+            left: 90%;
         }
+
+        #cabecalho a {
+            position: relative;
+            left: 80%;
+            top: 30%;
+        }
+
+    #menu {
+        width: 155px;
+        height: 100vh;
+        background-color: #212B46;
+        position: fixed;
+        left: 0;
+    }
+
+        #menu .textoDashboard {
+            position: relative;
+            top: 13%;
+            left: 36%;
+            text-decoration: none;
+        }
+
+        #menu .selecionado {
+            position: relative;
+            width: 155px;
+            height: 149px;
+            background-color: #151A30;
+            top: 13%;
+        }
+
+    .dashboard {
+        position: relative;
+        width: 42px;
+        top: 12%;
+        right: 48%;
+    }
+
+    #menu .textoEstoque {
+        position: relative;
+        top: 14%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .estoque {
+        position: relative;
+        width: 42px;
+        top: 16%;
+        right: 41%;
+    }
+
+    #menu .textoVendas {
+        position: relative;
+        top: 22%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .vendas {
+        position: relative;
+        width: 42px;
+        top: 20%;
+        right: 30%;
+    }
+
+    #menu .textoAnimais {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .animais {
+        position: relative;
+        width: 55px;
+        top: 24%;
+        right: 37%;
+    }
+
+    #menu .textoBanhoetosa {
+        position: relative;
+        top: 27%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .tesoura {
+        position: relative;
+        width: 41px;
+        top: 27%;
+        right: 55%;
+    }
+
+    #menu .textoCadastrarProduto {
+        position: relative;
+        top: 12%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoCadastrarFornecedor {
+        position: relative;
+        top: 15%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerenciarEstoque {
+        position: relative;
+        top: 16%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+
+
+
+    /*QUADRADO CENTRAL*/
+
+    .quadradoCentral {
+        position: absolute;
+        width: 870px;
+        height: 490px;
+        background-color: #212B46;
+        left: 20%;
+        top: 16%;
+    }
+
+    .quadradoNome {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        top: 8%;
+        left: 10%;
+    }
+
+    .textoNome {
+        position: relative;
+        color: white;
+        top: 16%;
+        font-size: 25px;
+        left: 10%;
+        width: 100px;
+    }
+
+    .quadradoCategoria {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        top: -12%;
+        left: 60%;
+    }
+
+    .textoCategoria {
+        position: relative;
+        color: white;
+        top: -4%;
+        font-size: 25px;
+        left: 60%;
+        width: 100px;
+    }
+
+    .quadradoDescricao {
+        position: relative;
+        width: 705px;
+        height: 100px;
+        top: -13%;
+        left: 10%;
+    }
+
+    .textoDescricao {
+        position: relative;
+        color: white;
+        top: -5%;
+        font-size: 25px;
+        left: 10%;
+        width: 100px;
+    }
+
+    .quadradoPrecoUnitario {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        top: -18%;
+        left: 10%;
+    }
+
+    .textoPrecoUnitario {
+        position: relative;
+        color: white;
+        top: -10%;
+        font-size: 25px;
+        left: 10%;
+        width: 160px;
+    }
+
+    .quadradoFornecedor {
+        position: relative;
+        width: 260px;
+        height: 40px;
+        top: -37%;
+        left: 60%;
+    }
+
+    .textoFornecedor {
+        position: relative;
+        color: white;
+        top: -29%;
+        font-size: 25px;
+        left: 60%;
+        width: 100px;
+    }
+
+    .btn {
+        position: relative;
+        left: 44%;
+        top: -26%;
+    }
 }

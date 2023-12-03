@@ -23,22 +23,23 @@
       </div>
     </header>
     <main>
-      <div id="menu">
-        <div class="selecionado"></div>
-        <a1 href="#" style="color: white;">Dashboard</a1>
-        <img class="dashboard" src="~/img/imagens/dashboard.png"></img>
-        <a2 href="#" style="color:#004BE3">Estoque</a2>
-        <img class="estoque" src="~/img/imagens/estoque.png"></img>
-        <a22 href="#" style="color: white;">Cadastrar produto</a22>
-        <a23 href="#" style="color: white;">Cadastrar fornecedor</a23>
-        <a24 href="#" style="color: white;">Gerenciar estoque</a24>
-        <a3 href="#" style="color: white;">Vendas</a3>
-        <img class="vendas" src="~/img/imagens/sales.png"></img>
-        <a4 href="#" style="color: white;">Animais</a4>
-        <img class="animais" src="~/img/imagens/animais.png"></img>
-        <a5 href="#" style="color: white;">Banho e tosa</a5>
-        <img class="tesoura" src="~/img/imagens/tesoura.png"></img>
-      </div>
+        <div id="menu">
+            <a class="textoDashboard" href="#" style="color: white;">Dashboard</a>
+            <img class="dashboard" src="~/img/tela-principal/dashboard.png"></img>
+            <div class="selecionado">
+                <a class="textoEstoque" href="#" style="color: #004BE3">Estoque</a>
+                <img class="estoque" src="~/img/tela-principal/estoque.png"></img>
+                <a class="textoCadastrarProduto" style="color: white;">Cadastrar produto</a>
+                <a class="textoCadastrarFornecedor" style="color: white;">Cadastrar fornecedor</a>
+                <a class="textoGerenciarEstoque" style="color: white;">Gerenciar estoque</a>
+            </div>
+            <a class="textoVendas" href="#" style="color: white;">Vendas</a>
+            <img class="vendas" src="~/img/tela-principal/sales.png"></img>
+            <a class="textoAnimais" href="#" style="color: white;">Animais</a>
+            <img class="animais" src="~/img/tela-principal/animais.png"></img>
+            <a class="textoBanhoetosa" href="#" style="color: white;">Banho e tosa</a>
+            <img class="tesoura" src="~/img/tela-principal/tesoura.png"></img>
+        </div>
       <div class="quadradoCentral">
         <form asp-page-handler="Pesquisa" method="post" class="d-flex barraDePesquisa" role="search">
             <input asp-for="@Model.pesquisa" class="form-control text-white border-black" type="search" placeholder="" aria-label="Search" style="background-color: #212B46; width: 200px;">

@@ -19,17 +19,16 @@
     <main>
     <form method="post">
         <div class="quadradocentral">
-            <a1>PETSHARP</a1>
-            <a2>Usuário:</a2>
+            <p class="textoPetsharp">PETSHARP</p>
+            <p class="textoUsuario">Usuário:</p>
             <div class="usuario">
                 <input asp-for="@Model.Username" type="text"  class="form-control" id="floatingInput" style="background-color: #151A30; border-color:#151A30; color:white">
                 <label for="floatingInput"></label>
               </div>
-              <a3>Senha:</a3>
+              <p class="textoSenha">Senha:</p>
               <div class="senha">
-                <input asp-for="@Model.Senha" type="password" class="form-control" id="floatingPassword" style="background-color: #151A30; border-color:#151A30; color:white">
+                <input asp-for="@Model.Senha" type="password" class="form-control" id="floatingPassword" style="background-color: #151A30; border-color:#151A30; color:white;">
                 <label for="floatingPassword"></label>
-                    
                     <div class="entrar">
                     <button class="btn btn-success">Entrar</button>
                         

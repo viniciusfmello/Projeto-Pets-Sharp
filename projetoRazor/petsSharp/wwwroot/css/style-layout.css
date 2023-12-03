@@ -1,6 +1,8 @@
 ﻿body {
     overflow: hidden;
+
 }
+
 
 @media (max-width: 1024px) {
     #cabecalho {
@@ -27,12 +29,15 @@
         width: 155px;
         height: 100vh;
         background-color: #212B46;
+        position: fixed;
+        left: 0;
     }
 
-        #menu a1 {
+        #menu .textoDashboard {
             position: relative;
             top: 13%;
             left: 36%;
+            text-decoration: none;
         }
 
         #menu .selecionado {
@@ -40,7 +45,7 @@
             width: 155px;
             height: 55px;
             background-color: #151A30;
-            top: 17%;
+            top: 13%;
         }
 
     .dashboard {
@@ -50,23 +55,25 @@
         right: 48%;
     }
 
-    #menu a2 {
+    #menu .textoEstoque {
         position: relative;
         top: 17%;
         left: 35%;
+        text-decoration: none;
     }
 
     .estoque {
         position: relative;
         width: 42px;
         top: 16%;
-        right: 35%;
+        right: 41%;
     }
 
-    #menu a3 {
+    #menu .textoVendas {
         position: relative;
         top: 22%;
         left: 35%;
+        text-decoration: none;
     }
 
     .vendas {
@@ -76,10 +83,11 @@
         right: 30%;
     }
 
-    #menu a4 {
+    #menu .textoAnimais {
         position: relative;
         top: 25%;
         left: 35%;
+        text-decoration: none;
     }
 
     .animais {
@@ -89,10 +97,11 @@
         right: 37%;
     }
 
-    #menu a5 {
+    #menu .textoBanhoetosa {
         position: relative;
         top: 27%;
         left: 35%;
+        text-decoration: none;
     }
 
     .tesoura {
@@ -108,7 +117,7 @@
         height: 100px;
         background-color: #212B46;
         top: 24%;
-        left: 17%;
+        left: 20%;
     }
 
     .quadrado2 {
@@ -122,11 +131,11 @@
 
     .quadrado3 {
         position: absolute;
-        width: 260px;
+        width: 280px;
         height: 100px;
         background-color: #212B46;
         top: 24%;
-        left: 73%;
+        left: 70%;
     }
 
     .quadrado4 {
@@ -135,7 +144,7 @@
         height: 100px;
         background-color: #212B46;
         top: 45%;
-        left: 17%;
+        left: 20%;
     }
 
     .quadrado5 {
@@ -149,11 +158,11 @@
 
     .quadrado6 {
         position: absolute;
-        width: 260px;
+        width: 280px;
         height: 100px;
         background-color: #212B46;
         top: 45%;
-        left: 73%;
+        left: 70%;
     }
 
     .grafico {
@@ -165,156 +174,167 @@
 
     .quadrado7 {
         position: absolute;
-        width: 541px;
-        height: 250px;
+        width: 600px;
+        height: 200px;
         background-color: #212B46;
-        top: 70%;
-        left: 17%;
+        top: 65%;
+        left: 20%;
     }
 
     .quadrado8 {
         position: absolute;
         width: 280px;
-        height: 250px;
+        height: 200px;
         background-color: #212B46;
-        top: 70%;
-        left: 71%;
+        top: 65%;
+        left: 70%;
     }
 
-    l1 {
+    .textoAlgo {
         position: relative;
-        top: -57%;
+        top: 40%;
+        left: 40%;
+        width: 10px;
+    }
+
+    .textoEstoque {
+        position: relative;
+        top: -30%;
         left: 4%;
         font-size: 120%;
     }
 
-    l2 {
-        position: relative;
-        top: -62%;
-        left: 1%;
-        font-size: 120%;
-    }
 
-    l3 {
+    .textoValorVendas {
         position: relative;
-        top: 43%;
-        left: 42%;
-        font-size: 150%;
-    }
-
-    l12 {
-        position: relative;
-        top: 16%;
-        left: 33%;
+        top: -69%;
+        left: 76%;
         font-size: 240%;
+        width: 20px;
     }
 
 
-    l121 {
+    .textoTotaldeVendas {
         position: relative;
-        top: 39%;
-        left: 8%;
-        width: 35px;
+        top: -95%;
+        left: 57%;
+        width: 110px;
         height: 35px;
     }
 
     .imagemQuadrado1 {
         position: relative;
-        top: -7%;
-        left: -20%;
+        top: -36%;
+        left: 4%;
         width: 35px;
         height: 35px;
     }
 
     .imagemQuadrado2 {
         position: relative;
-        top: -6%;
+        top: 10%;
         left: 6%;
         width: 35px;
         height: 35px;
     }
 
-    l21 {
+    .textoValorProdutos {
         position: relative;
-        top: 18%;
-        left: 55%;
+        top: -25%;
+        left: 70%;
         font-size: 240%;
     }
 
-    l22 {
+    .textoProdutosCadastrados {
         position: relative;
-        top: 40%;
-        left: 25%;
+        top: -51%;
+        left: 46%;
         font-size: 88%;
     }
 
-    l31 {
+    .textoValorFornecedores {
         position: relative;
-        top: 20%;
-        left: 79%;
+        top: 12%;
+        left: 73%;
         font-size: 250%;
+        width: 20px;
     }
 
-    l32 {
+    .textoTotaldeFornecedores {
         position: relative;
-        top: 38%;
-        left: 65%;
+        top: -16%;
+        left: 49%;
         font-size: 88%;
+        width: 140px;
     }
 
-    l41 {
+    .textoBanhoeTosa {
         position: relative;
-        top: 14%;
-        left: 14%;
+        top: -30%;
+        left: 3%;
+        font-size: 128%;
+        width: 118px;
+    }
+
+    .textoValorServicos {
+        position: relative;
+        top: -69%;
+        left: 76%;
+        font-size: 233%;
+        width: 15px;
+    }
+
+    .textoServicos {
+        position: relative;
+        top: -98%;
+        left: 69%;
+        font-size: 100%;
+        width: 35px;
+    }
+
+    .textoValorPendentes {
+        position: relative;
+        top: -23%;
+        left: 71%;
         font-size: 250%;
+        width: 10px;
     }
 
-    l42 {
+    .textoServicosPendentes {
         position: relative;
-        top: 34%;
-        left: -1%;
+        top: -52%;
+        left: 51%;
         font-size: 90%;
+        width: 125px;
     }
 
-    l51 {
-        position: relative;
-        top: 18%;
-        left: 55%;
-        font-size: 250%;
-    }
-
-    l52 {
-        position: relative;
-        top: 36%;
-        left: 29%;
-        font-size: 90%;
-    }
-
-    l61 {
+    .textoValorTotal {
         position: relative;
         top: 21%;
-        left: 80%;
-        font-size: 256%;
+        left: 33%;
+        font-size: 200%;
+        width: 139px;
     }
 
-    l62 {
+    .textoValorTotalProdutos {
         position: relative;
-        top: 37%;
-        left: 65%;
+        top: -3%;
+        left: 31%;
         font-size: 88%;
+        width: 151px;
     }
 
     .imagemQuadrado4 {
         position: relative;
-        top: -15%;
-        left: -34%;
+        top: -37%;
+        left: 5%;
         width: 35px;
         height: 35px;
     }
 
     .imagemQuadrado5 {
         position: relative;
-        top: -8%;
+        top: 10%;
         left: 9%;
         width: 35px;
         height: 35px;
@@ -347,12 +367,15 @@
         width: 155px;
         height: 100vh;
         background-color: #212B46;
+        position: fixed;
+        left: 0;
     }
 
-        #menu a1 {
+        #menu .textoDashboard {
             position: relative;
             top: 13%;
             left: 36%;
+            text-decoration: none;
         }
 
         #menu .selecionado {
@@ -360,7 +383,7 @@
             width: 155px;
             height: 55px;
             background-color: #151A30;
-            top: 19%;
+            top: 13%;
         }
 
     .dashboard {
@@ -370,23 +393,25 @@
         right: 48%;
     }
 
-    #menu a2 {
+    #menu .textoEstoque {
         position: relative;
         top: 17%;
         left: 35%;
+        text-decoration: none;
     }
 
     .estoque {
         position: relative;
         width: 42px;
         top: 16%;
-        right: 35%;
+        right: 41%;
     }
 
-    #menu a3 {
+    #menu .textoVendas {
         position: relative;
         top: 22%;
         left: 35%;
+        text-decoration: none;
     }
 
     .vendas {
@@ -396,10 +421,11 @@
         right: 30%;
     }
 
-    #menu a4 {
+    #menu .textoAnimais {
         position: relative;
         top: 25%;
         left: 35%;
+        text-decoration: none;
     }
 
     .animais {
@@ -409,10 +435,11 @@
         right: 37%;
     }
 
-    #menu a5 {
+    #menu .textoBanhoetosa {
         position: relative;
         top: 27%;
         left: 35%;
+        text-decoration: none;
     }
 
     .tesoura {
@@ -485,156 +512,167 @@
 
     .quadrado7 {
         position: absolute;
-        width: 643px;
-        height: 250px;
+        width: 600px;
+        height: 200px;
         background-color: #212B46;
-        top: 70%;
+        top: 65%;
         left: 20%;
     }
 
     .quadrado8 {
         position: absolute;
         width: 280px;
-        height: 250px;
+        height: 200px;
         background-color: #212B46;
-        top: 70%;
+        top: 65%;
         left: 70%;
     }
 
-    l1 {
+    .textoAlgo{
         position: relative;
-        top: -57%;
+        top: 40%;
+        left: 40%;
+        width: 10px;
+    }
+
+    .textoEstoque {
+        position: relative;
+        top: -30%;
         left: 4%;
         font-size: 120%;
     }
 
-    l2 {
-        position: relative;
-        top: -55%;
-        left: 1%;
-        font-size: 120%;
-    }
 
-    l3 {
+    .textoValorVendas {
         position: relative;
-        top: 43%;
-        left: 42%;
-        font-size: 150%;
-    }
-
-    l12 {
-        position: relative;
-        top: 16%;
-        left: 33%;
+        top: -69%;
+        left: 76%;
         font-size: 240%;
+        width: 20px;
     }
 
 
-    l121 {
+    .textoTotaldeVendas {
         position: relative;
-        top: 39%;
-        left: 8%;
-        width: 35px;
+        top: -95%;
+        left: 57%;
+        width: 110px;
         height: 35px;
     }
 
     .imagemQuadrado1 {
         position: relative;
-        top: -7%;
-        left: -20%;
+        top: -36%;
+        left: 4%;
         width: 35px;
         height: 35px;
     }
 
     .imagemQuadrado2 {
         position: relative;
-        top: -6%;
+        top: 10%;
         left: 6%;
         width: 35px;
         height: 35px;
     }
 
-    l21 {
+    .textoValorProdutos {
         position: relative;
-        top: 18%;
-        left: 55%;
+        top: -25%;
+        left: 70%;
         font-size: 240%;
     }
 
-    l22 {
+    .textoProdutosCadastrados {
         position: relative;
-        top: 40%;
-        left: 25%;
+        top: -51%;
+        left: 46%;
         font-size: 88%;
     }
 
-    l31 {
+    .textoValorFornecedores {
         position: relative;
-        top: 20%;
-        left: 79%;
+        top: 12%;
+        left: 73%;
         font-size: 250%;
+        width: 20px;
     }
 
-    l32 {
+    .textoTotaldeFornecedores {
         position: relative;
-        top: 38%;
-        left: 65%;
+        top: -16%;
+        left: 49%;
         font-size: 88%;
+        width: 140px;
     }
 
-    l41 {
+    .textoBanhoeTosa {
         position: relative;
-        top: 14%;
-        left: 14%;
+        top: -30%;
+        left: 3%;
+        font-size: 128%;
+        width: 118px;
+    }
+
+    .textoValorServicos {
+        position: relative;
+        top: -69%;
+        left: 76%;
+        font-size: 233%;
+        width: 15px;
+    }
+
+    .textoServicos {
+        position: relative;
+        top: -98%;
+        left: 69%;
+        font-size: 100%;
+        width: 35px;
+    }
+
+    .textoValorPendentes {
+        position: relative;
+        top: -23%;
+        left: 71%;
         font-size: 250%;
+        width: 10px;
     }
 
-    l42 {
+    .textoServicosPendentes {
         position: relative;
-        top: 34%;
-        left: -1%;
+        top: -52%;
+        left: 51%;
         font-size: 90%;
+        width: 125px;
     }
 
-    l51 {
-        position: relative;
-        top: 18%;
-        left: 55%;
-        font-size: 250%;
-    }
-
-    l52 {
-        position: relative;
-        top: 36%;
-        left: 29%;
-        font-size: 90%;
-    }
-
-    l61 {
+    .textoValorTotal {
         position: relative;
         top: 21%;
-        left: 80%;
-        font-size: 256%;
+        left: 33%;
+        font-size: 200%;
+        width: 139px;
     }
 
-    l62 {
+    .textoValorTotalProdutos {
         position: relative;
-        top: 37%;
-        left: 65%;
+        top: -3%;
+        left: 31%;
         font-size: 88%;
+        width: 151px;
     }
 
     .imagemQuadrado4 {
         position: relative;
-        top: -15%;
-        left: -34%;
+        top: -37%;
+        left: 5%;
         width: 35px;
         height: 35px;
     }
 
     .imagemQuadrado5 {
         position: relative;
-        top: -8%;
+        top: 10%;
         left: 9%;
         width: 35px;
         height: 35px;
@@ -666,12 +704,15 @@
         width: 155px;
         height: 100vh;
         background-color: #212B46;
+        position: fixed;
+        left: 0;
     }
 
-        #menu a1 {
+        #menu .textoDashboard {
             position: relative;
             top: 13%;
             left: 36%;
+            text-decoration: none;
         }
 
         #menu .selecionado {
@@ -679,7 +720,7 @@
             width: 155px;
             height: 55px;
             background-color: #151A30;
-            top: 17%;
+            top: 13%;
         }
 
     .dashboard {
@@ -689,23 +730,25 @@
         right: 48%;
     }
 
-    #menu a2 {
+    #menu .textoEstoque {
         position: relative;
         top: 17%;
         left: 35%;
+        text-decoration: none;
     }
 
     .estoque {
         position: relative;
         width: 42px;
         top: 16%;
-        right: 35%;
+        right: 41%;
     }
 
-    #menu a3 {
+    #menu .textoVendas {
         position: relative;
         top: 22%;
         left: 35%;
+        text-decoration: none;
     }
 
     .vendas {
@@ -715,10 +758,11 @@
         right: 30%;
     }
 
-    #menu a4 {
+    #menu .textoAnimais {
         position: relative;
         top: 25%;
         left: 35%;
+        text-decoration: none;
     }
 
     .animais {
@@ -728,10 +772,11 @@
         right: 37%;
     }
 
-    #menu a5 {
+    #menu .textoBanhoetosa {
         position: relative;
         top: 27%;
         left: 35%;
+        text-decoration: none;
     }
 
     .tesoura {
@@ -804,156 +849,167 @@
 
     .quadrado7 {
         position: absolute;
-        width: 643px;
-        height: 250px;
+        width: 600px;
+        height: 200px;
         background-color: #212B46;
-        top: 70%;
+        top: 65%;
         left: 20%;
     }
 
     .quadrado8 {
         position: absolute;
         width: 280px;
-        height: 250px;
+        height: 200px;
         background-color: #212B46;
-        top: 70%;
+        top: 65%;
         left: 70%;
     }
 
-    l1 {
+    .textoAlgo {
         position: relative;
-        top: -57%;
+        top: 40%;
+        left: 40%;
+        width: 10px;
+    }
+
+    .textoEstoque {
+        position: relative;
+        top: -30%;
         left: 4%;
         font-size: 120%;
     }
 
-    l2 {
-        position: relative;
-        top: -55%;
-        left: 1%;
-        font-size: 120%;
-    }
 
-    l3 {
+    .textoValorVendas {
         position: relative;
-        top: 43%;
-        left: 42%;
-        font-size: 150%;
-    }
-
-    l12 {
-        position: relative;
-        top: 16%;
-        left: 33%;
+        top: -69%;
+        left: 76%;
         font-size: 240%;
+        width: 20px;
     }
 
 
-    l121 {
+    .textoTotaldeVendas {
         position: relative;
-        top: 39%;
-        left: 8%;
-        width: 35px;
+        top: -95%;
+        left: 57%;
+        width: 110px;
         height: 35px;
     }
 
     .imagemQuadrado1 {
         position: relative;
-        top: -7%;
-        left: -20%;
+        top: -36%;
+        left: 4%;
         width: 35px;
         height: 35px;
     }
 
     .imagemQuadrado2 {
         position: relative;
-        top: -6%;
+        top: 10%;
         left: 6%;
         width: 35px;
         height: 35px;
     }
 
-    l21 {
+    .textoValorProdutos {
         position: relative;
-        top: 18%;
-        left: 55%;
+        top: -25%;
+        left: 70%;
         font-size: 240%;
     }
 
-    l22 {
+    .textoProdutosCadastrados {
         position: relative;
-        top: 40%;
-        left: 25%;
+        top: -51%;
+        left: 46%;
         font-size: 88%;
     }
 
-    l31 {
+    .textoValorFornecedores {
         position: relative;
-        top: 20%;
-        left: 79%;
+        top: 12%;
+        left: 73%;
         font-size: 250%;
+        width: 20px;
     }
 
-    l32 {
+    .textoTotaldeFornecedores {
         position: relative;
-        top: 38%;
-        left: 65%;
+        top: -16%;
+        left: 49%;
         font-size: 88%;
+        width: 140px;
     }
 
-    l41 {
+    .textoBanhoeTosa {
         position: relative;
-        top: 14%;
-        left: 14%;
+        top: -30%;
+        left: 3%;
+        font-size: 128%;
+        width: 118px;
+    }
+
+    .textoValorServicos {
+        position: relative;
+        top: -69%;
+        left: 76%;
+        font-size: 233%;
+        width: 15px;
+    }
+
+    .textoServicos {
+        position: relative;
+        top: -98%;
+        left: 69%;
+        font-size: 100%;
+        width: 35px;
+    }
+
+    .textoValorPendentes {
+        position: relative;
+        top: -23%;
+        left: 71%;
         font-size: 250%;
+        width: 10px;
     }
 
-    l42 {
+    .textoServicosPendentes {
         position: relative;
-        top: 34%;
-        left: -1%;
+        top: -52%;
+        left: 51%;
         font-size: 90%;
+        width: 125px;
     }
 
-    l51 {
-        position: relative;
-        top: 18%;
-        left: 55%;
-        font-size: 250%;
-    }
-
-    l52 {
-        position: relative;
-        top: 36%;
-        left: 29%;
-        font-size: 90%;
-    }
-
-    l61 {
+    .textoValorTotal {
         position: relative;
         top: 21%;
-        left: 80%;
-        font-size: 256%;
+        left: 33%;
+        font-size: 200%;
+        width: 139px;
     }
 
-    l62 {
+    .textoValorTotalProdutos {
         position: relative;
-        top: 37%;
-        left: 65%;
+        top: -3%;
+        left: 31%;
         font-size: 88%;
+        width: 151px;
     }
 
     .imagemQuadrado4 {
         position: relative;
-        top: -15%;
-        left: -34%;
+        top: -37%;
+        left: 5%;
         width: 35px;
         height: 35px;
     }
 
     .imagemQuadrado5 {
         position: relative;
-        top: -8%;
+        top: 10%;
         left: 9%;
         width: 35px;
         height: 35px;

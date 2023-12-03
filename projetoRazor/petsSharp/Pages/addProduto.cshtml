@@ -22,45 +22,46 @@
       </div>
     </header>
     <main>
-      <div id="menu">
-        <div class="selecionado"></div>
-        <a1 href="#" style="color: white;">Dashboard</a1>
-        <img class="dashboard" src="~/img/imagens/dashboard.png"></img>
-        <a2 href="#" style="color:white;">Estoque</a2>
-        <img class="estoque" src="~/img/imagens/estoque.png"></img>
-        <a22 href="#" style="color: #004BE3;">Cadastrar produto</a22>
-        <a23 href="#" style="color: white;">Cadastrar fornecedor</a23>
-        <a24 href="#" style="color: white;">Gerenciar estoque</a24>
-        <a3 href="#" style="color: white;">Vendas</a3>
-        <img class="vendas" src="~/img/imagens/sales.png"></img>
-        <a4 href="#" style="color: white;">Animais</a4>
-        <img class="animais" src="~/img/imagens/animais.png"></img>
-        <a5 href="#" style="color: white;">Banho e tosa</a5>
-        <img class="tesoura" src="~/img/imagens/tesoura.png"></img>
-      </div>
+        <div id="menu">
+            <a class="textoDashboard" href="#" style="color: white;">Dashboard</a>
+            <img class="dashboard" src="~/img/tela-principal/dashboard.png"></img>
+            <div class="selecionado">
+                <a class="textoEstoque" href="#" style="color: white">Estoque</a>
+                <img class="estoque" src="~/img/tela-principal/estoque.png"></img>
+                <a class="textoCadastrarProduto" style="color: #004BE3;">Cadastrar produto</a>
+                <a  class="textoCadastrarFornecedor"style="color: white;">Cadastrar fornecedor</a>
+                <a class="textoGerenciarEstoque" style="color: white;">Gerenciar estoque</a>
+            </div>
+            <a class="textoVendas" href="#" style="color: white;">Vendas</a>
+            <img class="vendas" src="~/img/tela-principal/sales.png"></img>
+            <a class="textoAnimais" href="#" style="color: white;">Animais</a>
+            <img class="animais" src="~/img/tela-principal/animais.png"></img>
+            <a class="textoBanhoetosa" href="#" style="color: white;">Banho e tosa</a>
+            <img class="tesoura" src="~/img/tela-principal/tesoura.png"></img>
+        </div>
       <form method="post">
       <div class="quadradoCentral">
-        <a1>Nome:</a1>
+        <p class="textoNome">Nome:</p>
         <div class="quadradoNome">
           <label class="form-label"></label>
           <input asp-for="@Model.Nome"  type="text" class="form-control border-black" id="campoNome" style="background-color: #151A30; color:white;" required>
         </div>
-        <a2>Categoria:</a2>
+        <p class="textoCategoria">Categoria:</p>
         <div class="quadradoCategoria">
           <label  class="form-label"></label>
           <input asp-for="@Model.Categoria" type="text" class="form-control border-black" id="campoCategoria" style="background-color: #151A30; color:white;" required>
         </div>
-        <a3>Descrição:</a3>
+        <p class="textoDescricao">Descrição:</p>
         <div class="quadradoDescricao">
           <label  class="form-label"></label>
          <textarea asp-for="@Model.Descricao" class="form-control border-black" id="campoDescricao" rows="3" style="background-color: #151A30; color:white;" required></textarea>
         </div>
-        <a4>Preço unitário:</a4>
+        <p class="textoPrecoUnitario">Preço unitário:</p>
         <div class="quadradoPrecoUnitario">
           <label  class="form-label"></label>
           <input asp-for="@Model.Valor" type="number" step="0.01" placeholder="0.00" class="form-control border-black" id="campoPrecoUnitario" style="background-color: #151A30; color:white;" required>
         </div>
-        <a5>Fornecedor:</a5>
+        <p class="textoFornecedor">Fornecedor:</p>
         <div class="quadradoFornecedor">
           <label class="form-label"></label>
           <input asp-for="@Model.Fornecedor" type="text" class="form-control border-black" id="campoFornecedor" style="background-color: #151A30; color:white;" required>
