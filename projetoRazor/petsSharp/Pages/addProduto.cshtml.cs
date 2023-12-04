@@ -17,8 +17,25 @@ namespace petsSharp.Pages
         public string Valor { get; set; }
         [BindProperty]
         public string Fornecedor { get; set; }
+
+        [BindProperty]
+        public List<string> ListaFornecedores { get; set; }
         public void OnGet()
         {
+            ListaFornecedores = new List<string>();
+            BancoDeDados bancoDeDados = new BancoDeDados();
+            SqlDataReader leitor;
+            bancoDeDados.abrirConexao();
+            leitor = bancoDeDados.executarQuery("select nome from tb_fornecedor");
+            while (leitor.HasRows)
+            {
+                leitor.Read();
+                try
+                {
+                    ListaFornecedores.Add(leitor.GetString(0));
+                }
+                catch { break; }
+            }
         }
         public IActionResult OnPost()
         {
