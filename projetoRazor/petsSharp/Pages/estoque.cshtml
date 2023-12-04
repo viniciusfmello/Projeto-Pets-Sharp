@@ -24,20 +24,20 @@
     </header>
     <main>
         <div id="menu">
-            <a class="textoDashboard" href="#" style="color: white;">Dashboard</a>
+            <a class="textoDashboard" asp-page="/dashboard" asp-area="" style="color: white;">Dashboard</a>
             <img class="dashboard" src="~/img/tela-principal/dashboard.png"></img>
             <div class="selecionado">
-                <a class="textoEstoque" href="#" style="color: #004BE3">Estoque</a>
+                <a class="textoEstoque" asp-page="/estoque" asp-area="" style="color: #004BE3">Estoque</a>
                 <img class="estoque" src="~/img/tela-principal/estoque.png"></img>
-                <a class="textoCadastrarProduto" style="color: white;">Cadastrar produto</a>
-                <a class="textoCadastrarFornecedor" style="color: white;">Cadastrar fornecedor</a>
-                <a class="textoGerenciarEstoque" style="color: white;">Gerenciar estoque</a>
+                <a class="textoCadastrarProduto" asp-page="/addProduto" asp-area=""  style="color: white;">Cadastrar produto</a>
+                <a class="textoCadastrarFornecedor" asp-page="/cadastrarFornecedor" asp-area="" style="color: white;">Cadastrar fornecedor</a>
+                <a class="textoGerenciarEstoque" asp-page="/Error" asp-area="" style="color: white;">Gerenciar estoque</a>
             </div>
-            <a class="textoVendas" href="#" style="color: white;">Vendas</a>
+            <a class="textoVendas" asp-page="/Error" asp-area="" style="color: white;">Vendas</a>
             <img class="vendas" src="~/img/tela-principal/sales.png"></img>
-            <a class="textoAnimais" href="#" style="color: white;">Animais</a>
+            <a class="textoAnimais" asp-page="/Error" asp-area="" style="color: white;">Animais</a>
             <img class="animais" src="~/img/tela-principal/animais.png"></img>
-            <a class="textoBanhoetosa" href="#" style="color: white;">Banho e tosa</a>
+            <a class="textoBanhoetosa" asp-page="/Error" asp-area="" style="color: white;">Banho e tosa</a>
             <img class="tesoura" src="~/img/tela-principal/tesoura.png"></img>
         </div>
       <div class="quadradoCentral">
@@ -47,7 +47,7 @@
         </form>
 
 <div class="container mt-4">
- <table class="table table-striped custom-dark-bg text-white">
+ <table class="table table-striped table-dark">
     <thead>
       <tr>
         <th scope="col">Nome</th>
