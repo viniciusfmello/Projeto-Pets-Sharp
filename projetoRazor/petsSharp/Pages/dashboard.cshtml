@@ -49,9 +49,50 @@
         <p class="textoValorTotalProdutos" style="color:white">Valor total dos produtos</p>
     </div>
     <div class="quadrado7">
-        <img class="grafico" src="~/img/tela-principal/grafico.png"></img>
+         <canvas id="meuGrafico" width="400" height="400"></canvas>
     </div>
     <div class="quadrado8">
         <p class="textoAlgo" style="color:white;">Algo</p>
     </div>
 </div>
+
+ <script>
+    var ctx = document.getElementById('meuGrafico').getContext('2d');
+
+    var data = {
+        
+labels: [@for (int i = 0; i < Model.ListaFornecedores.Count; i++)
+    {
+        @: '@Model.ListaFornecedores[i]',
+
+    }]
+
+
+    ,
+    datasets: [{
+        label: 'Produtos por fornecedores',
+        data: [@for (int i = 0; i < Model.valorFornecedores.Count; i++)
+    {
+        @: '@Model.valorFornecedores[i]',
+    }],
+        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        borderWidth: 1
+      }]
+    };
+
+    var options = {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    };
+
+
+    var myChart = new Chart(ctx, {
+      type: 'bar',
+      data: data,
+      options: options
+    });
+  </script>

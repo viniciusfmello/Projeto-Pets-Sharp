@@ -16,10 +16,16 @@ namespace petsSharp.Pages
         public int totalServicosPendentes { get; set; }
         public int totalFornecedores { get; set; }
         public decimal valorTotal { get; set; }
-
+        public List<string> ListaFornecedores { get; set; }
+        public List<int> valorFornecedores { get; set; }
         public dashboardModel()
         {
-            BancoDeDados bancoDeDados = new BancoDeDados();
+            
+        }
+
+        public void OnGet()
+        {
+           BancoDeDados bancoDeDados = new BancoDeDados();
 
             bancoDeDados.abrirConexao();
 
@@ -112,13 +118,42 @@ namespace petsSharp.Pages
             }
 
             bancoDeDados.fechar();
-        }
 
-        public void OnGet()
-        {
-            //BancoDeDados bancoDeDados = new BancoDeDados();
-            //bancoDeDados.manipularDado("insert into tb_cliente (nome, codigo_cliente) values ('yago', 1)");
-            //Console.WriteLine(bancoDeDados.executarQuery("select * from tb_cliente"));
+            ListaFornecedores = new List<string>();
+            valorFornecedores = new List<int>();
+
+            bancoDeDados.abrirConexao();
+            leitor = bancoDeDados.executarQuery("select nome, codigo_fornecedor from tb_fornecedor");
+            List<int> codigos = new List<int>();
+            while (leitor.HasRows)
+            {
+                leitor.Read();
+                try
+                {
+                    ListaFornecedores.Add(leitor.GetString(0));
+                    codigos.Add(leitor.GetInt32(1));
+                }
+                catch { break; }
+            }
+            bancoDeDados.fechar();
+            foreach(int codigo in codigos)
+            {
+                bancoDeDados.abrirConexao();
+
+                leitor = bancoDeDados.executarQuery($"select count(*) from tb_produto where codigo_fornecedor = {codigo}");
+                
+                
+                leitor.Read();
+                try
+                {
+                    valorFornecedores.Add(leitor.GetInt32(0));
+                    bancoDeDados.fechar();
+
+                }
+                catch { bancoDeDados.fechar();  }
+                
+            }
+            
         }
         public void OnPost() { }
 
