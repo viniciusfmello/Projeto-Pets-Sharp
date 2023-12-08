@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastrar Animais</title>
+    <link href="styleCadastrarAnimais.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styleCadastrarAnimais.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body style="background-color: #151A30;">
+    <header>
+      <div id="cabecalho">
+        <img id="profileicon" src="imagens/profileicon.png"></img>
+        <a href="#" style="color: red;">Sair</a>
+      </div>
+    </header>
+    <main>
+      <div id="menu">
+        <a class="textoDashboard" href="#" style="color: white;">Dashboard</a>
+        <img class="ImagemDashboard" src="Imagens/dashboard.png"></img>
+        <a class="textoEstoque" href="#" style="color: white">Estoque</a>
+        <img class="ImagemEstoque" src="Imagens/estoque.png"></img>
+        <a class="textoVendas" href="#" style="color: white">Vendas</a>
+        <img class="ImagemVendas" src="Imagens/sales.png"></img>
+        <div class="selecionado">
+            <a class="textoAnimais" href="#" style="color: white;">Animais</a>
+            <img class="ImagemAnimais" src="Imagens/animais.png"></img>
+            <a class="textoCadastrarAnimais" href="#" style="color: #004BE3">Cadastrar animais</a>
+        </div>
+        <a class="textoBanhoetosa" href="#" style="color: white;">Banho e tosa</a>
+        <img class="ImagemTesoura" src="Imagens/tesoura.png"></img>
+      </div>
+      <div class="quadradoCentral">
+        <p class="textoEspecie">Espécie:</p>
+          <div class="quadradoEspecie">
+            <label  class="form-label"></label>
+            <input type="text" class="form-control border-black" id="campoCliente" style="background-color: #151A30; color:white;">
+          </div>
+          <p class="textoValor">Valor:</p>
+          <div class="quadradoValor">
+            <label  class="form-label"></label>
+            <input type="text" class="form-control border-black" id="campoProduto" style="background-color: #151A30; color:white;">
+          </div>
+          <p class="textoFornecedor">Fornecedor:</p>
+          <div class="quadradoFornecedor">
+            <label  class="form-label"></label>
+            <input type="text" class="form-control border-black" id="campoQuantidade" style="background-color: #151A30; color:white;">
+          </div>
+          <p class="textoDescricao">Descrição:</p>
+          <div class="quadradoDescricao">
+            <label  class="form-label"></label>
+           <textarea class="form-control border-black" id="campoDescricao" rows="3" style="background-color: #151A30; color:white;"></textarea>
+          </div>
+          <button type="button" class="btn btn-success confirmar">Confirmar</button>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
