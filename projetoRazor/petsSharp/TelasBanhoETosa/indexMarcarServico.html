@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marcar Serviço</title>
+    <link href="styleMarcarServico.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styleMarcarServico.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body style="background-color: #151A30;">
+    <header>
+      <div id="cabecalho">
+        <img id="profileicon" src="imagens/profileicon.png"></img>
+        <a href="#" style="color: red;">Sair</a>
+      </div>
+    </header>
+    <main>
+      <div id="menu">
+        <a class="textoDashboard" href="#" style="color: white;">Dashboard</a>
+        <img class="ImagemDashboard" src="Imagens/dashboard.png"></img>
+        <a class="textoEstoque" href="#" style="color: white">Estoque</a>
+        <img class="ImagemEstoque" src="Imagens/estoque.png"></img>
+        <a class="textoVendas" href="#" style="color: white">Vendas</a>
+        <img class="ImagemVendas" src="Imagens/sales.png"></img>
+        <a class="textoAnimais" href="#" style="color: white;">Animais</a>
+        <img class="ImagemAnimais" src="Imagens/animais.png"></img>
+        <div class="selecionado">
+            <a class="textoBanhoetosa" href="#" style="color: white;">Banho e tosa</a>
+            <img class="ImagemTesoura" src="Imagens/tesoura.png"></img>
+            <a class="textoMarcarServico" style="color: #004BE3">Marcar serviço</a>
+        </div>
+      </div>
+      <div class="quadradoCentral">
+        <p class="textoDono">Nome do dono:</p>
+          <div class="quadradoDono">
+            <label  class="form-label"></label>
+            <input type="text" class="form-control border-black" id="campoDono" style="background-color: #151A30; color:white;">
+          </div>
+          <p class="textoCPF">CPF:</p>
+          <div class="quadradoCPF">
+            <label  class="form-label"></label>
+            <input type="text" class="form-control border-black" id="campoCPF" style="background-color: #151A30; color:white;">
+          </div>
+          <p class="textoNomePET">Nome do PET:</p>
+          <div class="quadradoNomePET">
+            <label  class="form-label"></label>
+            <input type="text" class="form-control border-black" id="campoNomePET" style="background-color: #151A30; color:white;">
+          </div>
+          <p class="textoPorte">Porte:</p>
+          <div class="quadradoPorte">
+            <label  class="form-label"></label>
+            <input type="text" class="form-control border-black" id="campoPorte" style="background-color: #151A30; color:white;">
+          </div>
+          <p class="textoServico">Serviço:</p>
+          <div class="quadradoServico">
+            <label  class="form-label"></label>
+            <input type="text" class="form-control border-black" id="campoServico" style="background-color: #151A30; color:white;">
+          </div>
+          <p class="textoDataEHorario">Data e horário:</p>
+          <div class="quadradoDataEHorario">
+            <label  class="form-label"></label>
+            <input type="text" class="form-control border-black" id="campoDataEHorario" style="background-color: #151A30; color:white;">
+          </div>
+          <p class="textoStatus">Status:</p>
+          <div class="quadradoStatus">
+            <label  class="form-label"></label>
+            <input type="text" class="form-control border-black" id="campoStatus" style="background-color: #151A30; color:white;">
+        </div>
+        <div style="position: relative;top: -44%;left: 46%;width: 100px;">
+            <button type="button" class="btn btn-success confirmar">Confirmar</button>
+        </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
