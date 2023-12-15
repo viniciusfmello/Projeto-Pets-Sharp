@@ -20,7 +20,12 @@
   <ItemGroup>
     <Content Remove="Pages\cadastrarProduto.cshtml" />
     <Content Remove="wwwroot\css\styleAnimais.css" />
+    <Content Remove="wwwroot\css\styleBanhoETosa.css" />
     <Content Remove="wwwroot\css\styleCadastrarAnimais.css" />
+    <Content Remove="wwwroot\css\styleGerarNotafiscal.css" />
+    <Content Remove="wwwroot\css\styleMarcarServico.css" />
+    <Content Remove="wwwroot\css\styleRegistrarNovaVenda.css" />
+    <Content Remove="wwwroot\css\styleVendas.css" />
     <Content Remove="wwwroot\img\Imagens_animal\animais.png" />
     <Content Remove="wwwroot\img\Imagens_animal\atendidos.png" />
     <Content Remove="wwwroot\img\Imagens_animal\dashboard.png" />
@@ -34,6 +39,32 @@
     <Content Remove="wwwroot\img\Imagens_animal\sales2.png" />
     <Content Remove="wwwroot\img\Imagens_animal\sales22.png" />
     <Content Remove="wwwroot\img\Imagens_animal\tesoura.png" />
+    <Content Remove="wwwroot\img\Imagens_banho\animais.png" />
+    <Content Remove="wwwroot\img\Imagens_banho\atendidos.png" />
+    <Content Remove="wwwroot\img\Imagens_banho\dashboard.png" />
+    <Content Remove="wwwroot\img\Imagens_banho\estoque.png" />
+    <Content Remove="wwwroot\img\Imagens_banho\gerencia.png" />
+    <Content Remove="wwwroot\img\Imagens_banho\grafico.png" />
+    <Content Remove="wwwroot\img\Imagens_banho\lupapng.png" />
+    <Content Remove="wwwroot\img\Imagens_banho\pendente.png" />
+    <Content Remove="wwwroot\img\Imagens_banho\profileicon.png" />
+    <Content Remove="wwwroot\img\Imagens_banho\sales.png" />
+    <Content Remove="wwwroot\img\Imagens_banho\sales2.png" />
+    <Content Remove="wwwroot\img\Imagens_banho\sales22.png" />
+    <Content Remove="wwwroot\img\Imagens_banho\tesoura.png" />
+    <Content Remove="wwwroot\img\Imagens_vendas\animais.png" />
+    <Content Remove="wwwroot\img\Imagens_vendas\atendidos.png" />
+    <Content Remove="wwwroot\img\Imagens_vendas\dashboard.png" />
+    <Content Remove="wwwroot\img\Imagens_vendas\estoque.png" />
+    <Content Remove="wwwroot\img\Imagens_vendas\gerencia.png" />
+    <Content Remove="wwwroot\img\Imagens_vendas\grafico.png" />
+    <Content Remove="wwwroot\img\Imagens_vendas\lupapng.png" />
+    <Content Remove="wwwroot\img\Imagens_vendas\pendente.png" />
+    <Content Remove="wwwroot\img\Imagens_vendas\profileicon.png" />
+    <Content Remove="wwwroot\img\Imagens_vendas\sales.png" />
+    <Content Remove="wwwroot\img\Imagens_vendas\sales2.png" />
+    <Content Remove="wwwroot\img\Imagens_vendas\sales22.png" />
+    <Content Remove="wwwroot\img\Imagens_vendas\tesoura.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -48,7 +79,12 @@
 
   <ItemGroup>
     <None Include="wwwroot\css\styleAnimais.css" />
+    <None Include="wwwroot\css\styleBanhoETosa.css" />
     <None Include="wwwroot\css\styleCadastrarAnimais.css" />
+    <None Include="wwwroot\css\styleGerarNotafiscal.css" />
+    <None Include="wwwroot\css\styleMarcarServico.css" />
+    <None Include="wwwroot\css\styleRegistrarNovaVenda.css" />
+    <None Include="wwwroot\css\styleVendas.css" />
     <None Include="wwwroot\img\Imagens\animais.png" />
     <None Include="wwwroot\img\Imagens\atendidos.png" />
     <None Include="wwwroot\img\Imagens\dashboard.png" />
@@ -75,6 +111,32 @@
     <None Include="wwwroot\img\Imagens_animal\sales2.png" />
     <None Include="wwwroot\img\Imagens_animal\sales22.png" />
     <None Include="wwwroot\img\Imagens_animal\tesoura.png" />
+    <None Include="wwwroot\img\Imagens_banho\animais.png" />
+    <None Include="wwwroot\img\Imagens_banho\atendidos.png" />
+    <None Include="wwwroot\img\Imagens_banho\dashboard.png" />
+    <None Include="wwwroot\img\Imagens_banho\estoque.png" />
+    <None Include="wwwroot\img\Imagens_banho\gerencia.png" />
+    <None Include="wwwroot\img\Imagens_banho\grafico.png" />
+    <None Include="wwwroot\img\Imagens_banho\lupapng.png" />
+    <None Include="wwwroot\img\Imagens_banho\pendente.png" />
+    <None Include="wwwroot\img\Imagens_banho\profileicon.png" />
+    <None Include="wwwroot\img\Imagens_banho\sales.png" />
+    <None Include="wwwroot\img\Imagens_banho\sales2.png" />
+    <None Include="wwwroot\img\Imagens_banho\sales22.png" />
+    <None Include="wwwroot\img\Imagens_banho\tesoura.png" />
+    <None Include="wwwroot\img\Imagens_vendas\animais.png" />
+    <None Include="wwwroot\img\Imagens_vendas\atendidos.png" />
+    <None Include="wwwroot\img\Imagens_vendas\dashboard.png" />
+    <None Include="wwwroot\img\Imagens_vendas\estoque.png" />
+    <None Include="wwwroot\img\Imagens_vendas\gerencia.png" />
+    <None Include="wwwroot\img\Imagens_vendas\grafico.png" />
+    <None Include="wwwroot\img\Imagens_vendas\lupapng.png" />
+    <None Include="wwwroot\img\Imagens_vendas\pendente.png" />
+    <None Include="wwwroot\img\Imagens_vendas\profileicon.png" />
+    <None Include="wwwroot\img\Imagens_vendas\sales.png" />
+    <None Include="wwwroot\img\Imagens_vendas\sales2.png" />
+    <None Include="wwwroot\img\Imagens_vendas\sales22.png" />
+    <None Include="wwwroot\img\Imagens_vendas\tesoura.png" />
   </ItemGroup>
 
   <ItemGroup>

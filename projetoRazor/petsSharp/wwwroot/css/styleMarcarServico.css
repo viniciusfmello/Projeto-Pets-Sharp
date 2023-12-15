@@ -1,0 +1,273 @@
+
+
+@media (max-width: 1024px) {
+    
+}
+
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+    .custom-dark-bg {
+        background-color: #151A30 !important;
+    }
+    #cabecalho {
+        height: 80px;
+        background-color: #212B46;
+    }
+
+
+        #cabecalho #profileicon {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            top: 18%;
+            left: 90%;
+        }
+
+        #cabecalho a {
+            position: relative;
+            left: 80%;
+            top: 30%;
+        }
+
+    #menu {
+        width: 155px;
+        height: 100vh;
+        background-color: #212B46;
+        position: fixed;
+        left: 0;
+    }
+
+        #menu .textoDashboard {
+            position: relative;
+            top: 13%;
+            left: 36%;
+            text-decoration: none;
+        }
+
+        #menu .selecionado {
+            position: relative;
+            width: 155px;
+            height: 120px;
+            background-color: #151A30;
+            top: 22%;
+        }
+
+    .ImagemDashboard {
+        position: relative;
+        width: 42px;
+        top: 12%;
+        right: 48%;
+    }
+
+    #menu .textoEstoque {
+        position: relative;
+        top: 16%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .ImagemEstoque {
+        position: relative;
+        width: 42px;
+        top: 16%;
+        right: 36%;
+    }
+
+    #menu .textoVendas {
+        position: relative;
+        top: 20%;
+        left: 38%;
+        text-decoration: none;
+    }
+
+    .ImagemVendas {
+        position: relative;
+        width: 42px;
+        top: 18%;
+        right: 30%;
+    }
+
+
+    #menu .textoAnimais {
+        position: relative;
+        top: 20%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .ImagemAnimais {
+        position: relative;
+        width: 55px;
+        top: 20%;
+        right: 37%;
+    }
+
+
+    #menu .textoBanhoetosa {
+        position: relative;
+        top: 20%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .ImagemTesoura {
+        position: relative;
+        width: 41px;
+        top: 18%;
+        right: 55%;
+    }
+
+    #menu .textoMarcarServico{
+        position: relative;
+        top: 28%;
+        left: 18%;
+        text-decoration: none;
+    }
+
+
+    /*QUADRADO CENTRAL*/
+
+    .quadradoCentral {
+        position: absolute;
+        width: 920px;
+        height: 480px;
+        background-color: #212B46;
+        left: 20%;
+        top: 18%;
+    }
+
+    .quadradoDono{
+        position: relative;
+        width: 270px;
+        height: 40px;
+        top: 9%;
+        left: 6%;
+        display: flex;
+    }
+
+    .textoDono{
+        color: white;
+        position: relative;
+        left: 6%;
+        font-size: 130%;
+        top: 12%;
+        width: 160px;
+    }
+
+    .quadradoCPF{
+        position: relative;
+        width: 270px;
+        height: 40px;
+        top: -9%;
+        left: 64%;
+        display: flex;
+    }
+
+    .textoCPF{
+        color: white;
+        position: relative;
+        left: 64%;
+        font-size: 130%;
+        top: -6%;
+        width: 160px;
+    }
+
+    .quadradoNomePET{
+        position: relative;
+        width: 270px;
+        height: 40px;
+        top: -10%;
+        left: 6%;
+        display: flex;
+    }
+
+    .textoNomePET{
+        color: white;
+        position: relative;
+        left: 6%;
+        font-size: 130%;
+        top: -7%;
+        width: 160px;
+    }
+
+    .quadradoPorte{
+        position: relative;
+        width: 270px;
+        height: 40px;
+        top: -28%;
+        left: 64%;
+        display: flex;
+    }
+
+    .textoPorte{
+        color: white;
+        position: relative;
+        left: 65%;
+        font-size: 130%;
+        top: -25%;
+        width: 160px;    
+    }
+
+    .quadradoServico{
+        position: relative;
+        width: 270px;
+        height: 40px;
+        top: -28%;
+        left: 6%;
+        display: flex;
+    }
+
+    .textoServico{
+        color: white;
+        position: relative;
+        left: 6%;
+        font-size: 130%;
+        top: -25%;
+        width: 160px;
+    }
+
+    .quadradoDataEHorario{
+        position: relative;
+        width: 270px;
+        height: 40px;
+        top: -46%;
+        left: 64%;
+        display: flex;
+    }
+
+    .textoDataEHorario{
+        color: white;
+        position: relative;
+        left: 64%;
+        font-size: 130%;
+        top: -43%;
+        width: 160px;
+    }
+
+    .quadradoStatus{
+        position: relative;
+        width: 270px;
+        height: 40px;
+        top: -47%;
+        left: 6%;
+        display: flex;    
+    }
+
+    .textoStatus{
+        color: white;
+        position: relative;
+        left: 6%;
+        font-size: 130%;
+        top: -44%;
+        width: 160px;
+    }
+
+
+
+}
+
+@media (min-width: 1440px) {
+
+
+
+}
