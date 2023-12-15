@@ -1,84 +1,76 @@
 ﻿@page
 @model petsSharp.Pages.marcarBanhoEtosaModel
 @{
-	Layout = null;
+    Layout = null;
 }
 
 
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Marcar Serviço</title>
     <link href="~/css/styleMarcarServico.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="styleMarcarServico.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body style="background-color: #151A30;">
+</head>
+<body style="background-color: #151A30;">
     <header>
-      <div id="cabecalho">
-        <img id="profileicon" src="~/img/Imagens_banho/profileicon.png">
-        <a asp-page="/Index" asp-area="" style="color: red;">Sair</a>
-      </div>
+        <div id="cabecalho">
+            <img id="profileicon" src="~/img/Imagens_banho/profileicon.png">
+            <a asp-page="/Index" asp-area="" style="color: red;">Sair</a>
+        </div>
     </header>
     <main>
-      <div id="menu">
-        <a class="textoDashboard" asp-page="/dashboard" asp-area="" style="color: white;">Dashboard</a>
-        <img class="ImagemDashboard" src="~/img/Imagens_banho/dashboard.png">
-        <a class="textoEstoque"  asp-page="/estoque" asp-area="" style="color: white">Estoque</a>
-        <img class="ImagemEstoque" src="~/img/Imagens_banho/estoque.png">
-        <a class="textoVendas"  asp-page="/indexVendas" asp-area="" style="color: white">Vendas</a>
-        <img class="ImagemVendas" src="~/img/Imagens_banho/sales.png">
-        <a class="textoAnimais"  asp-page="/indexAnimais" asp-area="" style="color: white;">Animais</a>
-        <img class="ImagemAnimais" src="~/img/Imagens_banho/animais.png">
-        <div class="selecionado">
-            <a class="textoBanhoetosa"  asp-page="/indexBanhoETosa" asp-area="" style="color: white;">Banho e tosa</a>
-            <img class="ImagemTesoura" src="~/img/Imagens_banho/tesoura.png">
-            <a class="textoMarcarServico" asp-page="/marcarBanhoEtosa" asp-area="" style="color: #004BE3">Marcar serviço</a>
+        <div id="menu">
+            <a class="textoDashboard" asp-page="/dashboard" asp-area="" style="color: white;">Dashboard</a>
+            <img class="ImagemDashboard" src="~/img/Imagens_banho/dashboard.png">
+            <a class="textoEstoque" asp-page="/estoque" asp-area="" style="color: white">Estoque</a>
+            <img class="ImagemEstoque" src="~/img/Imagens_banho/estoque.png">
+            <a class="textoVendas" asp-page="/indexVendas" asp-area="" style="color: white">Vendas</a>
+            <img class="ImagemVendas" src="~/img/Imagens_banho/sales.png">
+            <a class="textoAnimais" asp-page="/indexAnimais" asp-area="" style="color: white;">Animais</a>
+            <img class="ImagemAnimais" src="~/img/Imagens_banho/animais.png">
+            <div class="selecionado">
+                <a class="textoBanhoetosa" asp-page="/indexBanhoETosa" asp-area="" style="color: white;">Banho e tosa</a>
+                <img class="ImagemTesoura" src="~/img/Imagens_banho/tesoura.png">
+                <a class="textoMarcarServico" asp-page="/marcarBanhoEtosa" asp-area="" style="color: #004BE3">Marcar serviço</a>
+            </div>
         </div>
-      </div>
-      <div class="quadradoCentral">
-        <p class="textoDono">Nome do dono:</p>
-          <div class="quadradoDono">
-            <label  class="form-label"></label>
-            <input type="text" class="form-control border-black" id="campoDono" style="background-color: #151A30; color:white;">
-          </div>
-          <p class="textoCPF">CPF:</p>
-          <div class="quadradoCPF">
-            <label  class="form-label"></label>
-            <input type="text" class="form-control border-black" id="campoCPF" style="background-color: #151A30; color:white;">
-          </div>
-          <p class="textoNomePET">Nome do PET:</p>
-          <div class="quadradoNomePET">
-            <label  class="form-label"></label>
-            <input type="text" class="form-control border-black" id="campoNomePET" style="background-color: #151A30; color:white;">
-          </div>
-          <p class="textoPorte">Porte:</p>
-          <div class="quadradoPorte">
-            <label  class="form-label"></label>
-            <input type="text" class="form-control border-black" id="campoPorte" style="background-color: #151A30; color:white;">
-          </div>
-          <p class="textoServico">Serviço:</p>
-          <div class="quadradoServico">
-            <label  class="form-label"></label>
-            <input type="text" class="form-control border-black" id="campoServico" style="background-color: #151A30; color:white;">
-          </div>
-          <p class="textoDataEHorario">Data e horário:</p>
-          <div class="quadradoDataEHorario">
-            <label  class="form-label"></label>
-            <input type="text" class="form-control border-black" id="campoDataEHorario" style="background-color: #151A30; color:white;">
-          </div>
-          <p class="textoStatus">Status:</p>
-          <div class="quadradoStatus">
-            <label  class="form-label"></label>
-            <input type="text" class="form-control border-black" id="campoStatus" style="background-color: #151A30; color:white;">
+        <form method="post">
+        <div class="quadradoCentral">
+            <p class="textoDono">Nome do dono:</p>
+            <div class="quadradoDono">
+                <label class="form-label"></label>
+                <input asp-for="@Model.NomeCliente" type="text" class="form-control border-black" id="campoDono" style="background-color: #151A30; color:white;" required>
+            </div>
+            <p class="textoCPF">CPF:</p>
+            <div class="quadradoCPF">
+                <label class="form-label"></label>
+                <input asp-for="@Model.cpf_cliente" type="text" class="form-control border-black" id="campoCPF" style="background-color: #151A30; color:white;" required>
+            </div>
+            <p class="textoNomePET">Nome do PET:</p>
+            <div class="quadradoNomePET">
+                <label class="form-label"></label>
+                <input asp-for="@Model.NomePET" type="text" class="form-control border-black" id="campoNomePET" style="background-color: #151A30; color:white;" required>
+            </div>
+            <p class="textoPorte">Porte:</p>
+            <div class="quadradoPorte">
+                <label class="form-label"></label>
+                <input asp-for="@Model.porte" type="text" class="form-control border-black" id="campoPorte" style="background-color: #151A30; color:white;" required>
+            </div>
+            <p class="textoServico">Serviço em Andamento</p>
+            <div class="quadradoServico">
+                <label class="form-label"></label>
+                <input asp-for="@Model.status" type="text" class="form-control border-black" id="campoServico" style="background-color: #151A30; color:white;" required>
+            </div>
+            <div style="position: relative;top: -44%;left: 46%;width: 100px;">
+                <button type="submit" class="btn btn-success confirmar">Confirmar</button>
+            </div>
         </div>
-        <div style="position: relative;top: -44%;left: 46%;width: 100px;">
-            <button type="button" class="btn btn-success confirmar">Confirmar</button>
-        </div>
-        </div>
+        </form>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>

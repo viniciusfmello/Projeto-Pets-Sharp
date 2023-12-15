@@ -44,16 +44,17 @@ namespace petsSharp.Pages
 
 					leitor.Read();
 					int codigo = leitor.GetInt32(0);
-					string servico = leitor.GetString(1);
-					string cliente = leitor.GetString(2);
-					string especie = leitor.GetString(3);
-					string status = leitor.GetString(4);
+					string cliente = leitor.GetString(1);
+					
+					string porte = leitor.GetString(4);
+					string status = leitor.GetString(5);
+
 
 					temp_dict.Add("codigo", codigo.ToString());
-					temp_dict.Add("servico", servico);
-					temp_dict.Add("cliente", cliente);
-					temp_dict.Add("especie", especie);
 					temp_dict.Add("status", status);
+					temp_dict.Add("cliente", cliente);
+					temp_dict.Add("porte", porte);
+
 					list_banhoetosa.Add(temp_dict);
 					count++;
 				}
@@ -83,10 +84,10 @@ namespace petsSharp.Pages
 				foreach (Dictionary<string, string> dicionario in list_banhoetosa)
 				{
 					if (dicionario["codigo"].Contains(pesquisa, StringComparison.OrdinalIgnoreCase) ||
-						dicionario["servico"].Contains(pesquisa, StringComparison.OrdinalIgnoreCase) ||
+						dicionario["status"].Contains(pesquisa, StringComparison.OrdinalIgnoreCase) ||
 						dicionario["cliente"].Contains(pesquisa, StringComparison.OrdinalIgnoreCase) ||
-						dicionario["especie"].Contains(pesquisa, StringComparison.OrdinalIgnoreCase) ||
-						dicionario["status"].Contains(pesquisa, StringComparison.OrdinalIgnoreCase))
+						dicionario["porte"].Contains(pesquisa, StringComparison.OrdinalIgnoreCase))
+						
 
 					{
 						temp_list_servicos.Add(dicionario);

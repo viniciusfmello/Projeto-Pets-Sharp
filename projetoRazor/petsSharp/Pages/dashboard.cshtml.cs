@@ -73,7 +73,7 @@ namespace petsSharp.Pages
             bancoDeDados.fechar();
             bancoDeDados.abrirConexao();
 
-            leitor = bancoDeDados.executarQuery("select count( servico_realizado) from tb_servicos where servico_realizado = 'nao'");
+            leitor = bancoDeDados.executarQuery("select count( status_servico) from tb_servicos where status_servico = 'nao'");
 
             if (leitor.HasRows)
             {
