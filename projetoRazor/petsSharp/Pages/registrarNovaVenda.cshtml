@@ -1,72 +1,74 @@
 ﻿@page
 @model petsSharp.Pages.registrarNovaVendaModel
 @{
-    Layout = null;
+	Layout = null;
 }
 
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Registrar Vendas</title>
-    <link href="~/css/styleRegistrarNovaVenda.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="styleRegistrarNovaVenda.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registrar Vendas</title>
+	<link href="~/css/styleRegistrarNovaVenda.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="styleRegistrarNovaVenda.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body style="background-color: #151A30;">
-    <header>
-        <div id="cabecalho">
-            <img id="profileicon" src="~/img/Imagens_vendas/profileicon.png"></img>
-            <a asp-area="" asp-page="/Index" style="color: red;">Sair</a>
-        </div>
-    </header>
-    <main>
-        <div id="menu">
-            <a class="textoDashboard" asp-page="/dashboard" asp-area="" style="color: white;">Dashboard</a>
-            <img class="ImagemDashboard" src="~/img/Imagens_vendas/dashboard.png"></img>
-            <a class="textoEstoque" asp-page="/estoque" asp-area="" style="color: white">Estoque</a>
-            <img class="ImagemEstoque" src="~/img/Imagens_vendas/estoque.png"></img>
-            <div class="selecionado">
-                <a class="textoVendas" asp-page="/indexVendas" asp-area="" style="color: white">Vendas</a>
-                <img class="ImagemVendas" src="~/img/Imagens_vendas/sales.png"></img>
-                <a class="textoRegistrarNovaVenda" asp-page="/registrarNovaVenda" asp-area="" style="color: #004BE3;">Registrar nova venda</a>
-                <a class="textoGerarNotaFiscal" asp-page="/gerarNota" asp-area="" style="color:white">Gerar nota fiscal</a>
-            </div>
-            <a class="textoAnimais" asp-page="/indexAnimais" asp-area="" style="color: white;">Animais</a>
-            <img class="ImagemAnimais" src="~/img/Imagens_vendas/animais.png"></img>
-            <a class="textoBanhoetosa" asp-page="/indexBanhoETosa" asp-area="" style="color: white;">Banho e tosa</a>
-            <img class="ImagemTesoura" src="~/img/Imagens_vendas/tesoura.png"></img>
-        </div>
-        <div class="quadradoCentral">
-            <p class="textoCliente">Cliente:</p>
-            <div class="quadradoCliente">
-                <label class="form-label"></label>
-                <input type="text" class="form-control border-black" id="campoCliente" style="background-color: #151A30; color:white;">
-            </div>
-            <p class="textoProduto">Produto:</p>
-            <div class="quadradoProduto">
-                <label class="form-label"></label>
-                <input type="text" class="form-control border-black" id="campoProduto" style="background-color: #151A30; color:white;">
-            </div>
-            <p class="textoQuantidade">Quantidade:</p>
-            <div class="quadradoQuantidade">
-                <label class="form-label"></label>
-                <input type="text" class="form-control border-black" id="campoQuantidade" style="background-color: #151A30; color:white;">
-            </div>
-            <p class="textoValorTotal">Valor total:</p>
-            <div class="quadradoValorTotal">
-                <label class="form-label"></label>
-                <input type="text" class="form-control border-black" id="campoValorTotal" style="background-color: #151A30; color:white;">
-            </div>
-            <p class="textoFormaDePagamento">Forma de pagamento:</p>
-            <div class="quadradoFormaDePagamento">
-                <label class="form-label"></label>
-                <input type="text" class="form-control border-black" id="campoFormaDePagamento" style="background-color: #151A30; color:white;">
-            </div>
-            <button type="button" class="btn btn-success confirmar">Confirmar</button>
-        </div>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<header>
+		<div id="cabecalho">
+			<img id="profileicon" src="~/img/Imagens_vendas/profileicon.png"></img>
+			<a asp-area="" asp-page="/Index" style="color: red;">Sair</a>
+		</div>
+	</header>
+	<main>
+		<div id="menu">
+			<a class="textoDashboard" asp-page="/dashboard" asp-area="" style="color: white;">Dashboard</a>
+			<img class="ImagemDashboard" src="~/img/Imagens_vendas/dashboard.png"></img>
+			<a class="textoEstoque" asp-page="/estoque" asp-area="" style="color: white">Estoque</a>
+			<img class="ImagemEstoque" src="~/img/Imagens_vendas/estoque.png"></img>
+			<div class="selecionado">
+				<a class="textoVendas" asp-page="/indexVendas" asp-area="" style="color: white">Vendas</a>
+				<img class="ImagemVendas" src="~/img/Imagens_vendas/sales.png"></img>
+				<a class="textoRegistrarNovaVenda" asp-page="/registrarNovaVenda" asp-area="" style="color: #004BE3;">Registrar nova venda</a>
+				<a class="textoGerarNotaFiscal" asp-page="/gerarNota" asp-area="" style="color:white">Gerar nota fiscal</a>
+			</div>
+			<a class="textoAnimais" asp-page="/indexAnimais" asp-area="" style="color: white;">Animais</a>
+			<img class="ImagemAnimais" src="~/img/Imagens_vendas/animais.png"></img>
+			<a class="textoBanhoetosa" asp-page="/indexBanhoETosa" asp-area="" style="color: white;">Banho e tosa</a>
+			<img class="ImagemTesoura" src="~/img/Imagens_vendas/tesoura.png"></img>
+		</div>
+		<form method="post">
+			<div class="quadradoCentral">
+				<p class="textoCliente">Cliente:</p>
+				<div class="quadradoCliente">
+					<label class="form-label"></label>
+					<input asp-for="@Model.Cliente" type="text" class="form-control border-black" id="campoCliente" style="background-color: #151A30; color:white;" required>
+				</div>
+				<p class="textoProduto">Produto:</p>
+				<div class="quadradoProduto">
+					<label class="form-label"></label>
+					<input asp-for="@Model.Produto" type="text" class="form-control border-black" id="campoProduto" style="background-color: #151A30; color:white;" required>
+				</div>
+				<p class="textoQuantidade">Quantidade:</p>
+				<div class="quadradoQuantidade">
+					<label class="form-label"></label>
+					<input asp-for="@Model.Quantidade" type="number" step="1" class="form-control border-black" id="campoQuantidade" style="background-color: #151A30; color:white;" required>
+				</div>
+				<p class="textoValorTotal">Valor total:</p>
+				<div class="quadradoValorTotal">
+					<label class="form-label"></label>
+					<input asp-for="@Model.Valor" type="number" step="0.01" placeholder="0.00" class="form-control border-black" id="campoValorTotal" style="background-color: #151A30; color:white;" required>
+				</div>
+				<p class="textoFormaDePagamento">Forma de pagamento:</p>
+				<div class="quadradoFormaDePagamento">
+					<label class="form-label"></label>
+					<input asp-for="@Model.Pagamento" type="text" class="form-control border-black" id="campoFormaDePagamento" style="background-color: #151A30; color:white;" required>
+				</div>
+				<button type="submit" class="btn btn-success confirmar">Confirmar</button>
+			</div>
+		</form>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
