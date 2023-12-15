@@ -1,0 +1,66 @@
+﻿@page
+@model petsSharp.Pages.indexAnimaisModel
+@{
+	Layout = null;
+}
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Animais</title>
+    <link href="~/css/styleAnimais.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styleAnimais.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body style="background-color: #151A30;">
+    <header>
+      <div id="cabecalho">
+        <img id="profileicon" src="~/img/Imagens_animal/profileicon.png"></img>
+        <a href="#" style="color: red;">Sair</a>
+      </div>
+    </header>
+    <main>
+      <div id="menu">
+    <a class="textoDashboard" asp-page="/dashboard" asp-area="" style="color: white;">Dashboard</a>
+        <img class="ImagemDashboard" src="~/img/Imagens_animal/dashboard.png"></img>
+        <a class="textoEstoque" asp-page="/estoque" asp-area="" style="color: white">Estoque</a>
+        <img class="ImagemEstoque" src="~/img/Imagens_animal/estoque.png"></img>
+        <a class="textoVendas" href="#" style="color: white">Vendas</a>
+        <img class="ImagemVendas" src="~/img/Imagens_animal/sales.png"></img>
+        <div class="selecionado">
+            <a class="textoAnimais" asp-page="/indexAnimal" asp-area="" style="color: white;">Animais</a>
+            <img class="ImagemAnimais" src="~/img/Imagens_animal/animais.png"></img>
+            <a class="textoCadastrarAnimais" asp-page="/cadastrarAnimais" asp-area="" style="color: #004BE3">Cadastrar animais</a>
+        </div>
+        <a class="textoBanhoetosa" href="#" style="color: white;">Banho e tosa</a>
+        <img class="ImagemTesoura" src="~/img/Imagens_animal/tesoura.png"></img>
+      </div>
+      <div class="quadradoCentral">
+        <form class="d-flex barraDePesquisa" role="search">
+            <input class="form-control text-white border-black" type="search" placeholder="" aria-label="Search" style="background-color: #212B46; width: 200px;">
+            <button class="btn border-black" type="submit" style="background-color: #212B46; color: white;">Pesquisar</button>
+          </form>
+          <form class="d-flex barraDeExclusao" role="search">
+            <input class="form-control text-white border-black" type="search" placeholder="" aria-label="Search" style="background-color: #212B46; width: 200px;">
+            <button class="btn border-black" type="submit" style="background-color: red; color: white;">Excluir</button>
+          </form>
+          <div class="textos">
+            <p class="textoCodigo">Código:</p>
+            <p class="textoEspecie">Espécie:</p>
+            <p class="textoDescricao">Descrição:</p>
+            <p class="textoValor">Valor:</p>
+          </div>
+          <div class="vendas">
+            <p class="campoCodigo">xxxxxxxx</p>
+            <p class="campoEspecie">xxxxxxxx</p>
+            <p class="campoDescricao">xxxxxxxx</p>
+            <p class="campoValor">xxxxxxxx</p>
+          </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

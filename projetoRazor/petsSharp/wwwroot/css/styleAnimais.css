@@ -1,0 +1,805 @@
+
+@media (max-width: 1024px) {
+    .custom-dark-bg {
+        background-color: #151A30 !important;
+    }
+    #cabecalho {
+        height: 80px;
+        background-color: #212B46;
+    }
+
+
+        #cabecalho #profileicon {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            top: 18%;
+            left: 90%;
+        }
+
+        #cabecalho a {
+            position: relative;
+            left: 80%;
+            top: 30%;
+        }
+
+    #menu {
+        width: 155px;
+        height: 100vh;
+        background-color: #212B46;
+        position: fixed;
+        left: 0;
+    }
+
+        #menu .textoDashboard {
+            position: relative;
+            top: 13%;
+            left: 36%;
+            text-decoration: none;
+        }
+
+        #menu .selecionado {
+            position: relative;
+            width: 155px;
+            height: 110px;
+            background-color: #151A30;
+            top: 20%;
+        }
+
+    .ImagemDashboard {
+        position: relative;
+        width: 42px;
+        top: 12%;
+        right: 48%;
+    }
+
+    #menu .textoEstoque {
+        position: relative;
+        top: 16%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .ImagemEstoque {
+        position: relative;
+        width: 42px;
+        top: 16%;
+        right: 36%;
+    }
+
+    #menu .textoVendas {
+        position: relative;
+        top: 20%;
+        left: 38%;
+        text-decoration: none;
+    }
+
+    .ImagemVendas {
+        position: relative;
+        width: 42px;
+        top: 18%;
+        right: 30%;
+    }
+
+    #menu .textoRegistrarNovaVenda{
+        position: relative;
+        top: 18%;
+        left: 0%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerarNotaFiscal{
+        position: relative;
+        top: 24%;
+        left: 0%;
+        text-decoration: none;
+    }
+
+    #menu .textoAnimais {
+        position: relative;
+        top: 12%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .ImagemAnimais {
+        position: relative;
+        width: 55px;
+        top: 7%;
+        right: 37%;
+    }
+
+    .textoCadastrarAnimais{
+        position: relative;
+        text-decoration: none;
+        color:white;
+        left: 10%;
+        top: 11%;
+    }
+
+    #menu .textoBanhoetosa {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .ImagemTesoura {
+        position: relative;
+        width: 41px;
+        top: 25%;
+        right: 55%;
+    }
+
+    #menu .textoCadastrarProduto {
+        position: relative;
+        top: 12%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoCadastrarFornecedor {
+        position: relative;
+        top: 15%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerenciarEstoque {
+        position: relative;
+        top: 16%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    /*QUADRADO CENTRAL*/
+
+    .quadradoCentral {
+        position: absolute;
+        width: 920px;
+        height: 440px;
+        background-color: #212B46;
+        left: 20%;
+        top: 26%;
+    }
+
+    .textos{
+        position: relative;
+        height: 50px;
+        top: -10%;
+    }
+
+    .barraDePesquisa {
+        position: relative;
+        top: -9%;
+    }
+
+    .barraDeExclusao{
+        position: relative;
+        left: 71%;
+        width: 100px;
+        top: -18%;
+    }
+
+        .vendas {
+            position: relative;
+            background-color: #151A30;
+            width: 90%;
+            height: 40px;
+            left: 4%;
+            top: -12%;
+            align-items: center;
+            display: flex;
+        }
+
+        .campoCodigo{
+            position: relative;
+            color: white;
+            top: 10%;
+            left: 2%;
+        }
+    
+        .campoEspecie{
+            position: relative;
+            color: white;
+            top: 10%;
+            left: 14%;
+        }
+        
+        .campoDescricao{
+            position: relative;
+            color: white;
+            top: 10%;
+            left: 26%;
+        }
+
+        .campoValor{
+            position: relative;
+            color: white;
+            top: 10%;
+            left: 63%;
+        }
+
+    .textoCodigo {
+        position: relative;
+        color: white;
+        left: 5%;
+        top: 10%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+    .textoEspecie {
+        position: relative;
+        color: white;
+        left: 23%;
+        top: -77%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+    .textoDescricao {
+        position: relative;
+        color: white;
+        left: 40%;
+        top: -167%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+    .textoValor {
+        position: relative;
+        color: white;
+        left: 80%;
+        top: -256%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+    .textoTotal {
+        position: relative;
+        color: white;
+        left: 81%;
+        top: -346%;
+        width: 100px;
+        font-size: 120%;
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1439px) {
+    .custom-dark-bg {
+        background-color: #151A30 !important;
+    }
+    #cabecalho {
+        height: 80px;
+        background-color: #212B46;
+    }
+
+
+        #cabecalho #profileicon {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            top: 18%;
+            left: 90%;
+        }
+
+        #cabecalho a {
+            position: relative;
+            left: 80%;
+            top: 30%;
+        }
+
+    #menu {
+        width: 155px;
+        height: 100vh;
+        background-color: #212B46;
+        position: fixed;
+        left: 0;
+    }
+
+        #menu .textoDashboard {
+            position: relative;
+            top: 13%;
+            left: 36%;
+            text-decoration: none;
+        }
+
+        #menu .selecionado {
+            position: relative;
+            width: 155px;
+            height: 110px;
+            background-color: #151A30;
+            top: 20%;
+        }
+
+    .ImagemDashboard {
+        position: relative;
+        width: 42px;
+        top: 12%;
+        right: 48%;
+    }
+
+    #menu .textoEstoque {
+        position: relative;
+        top: 16%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .ImagemEstoque {
+        position: relative;
+        width: 42px;
+        top: 16%;
+        right: 36%;
+    }
+
+    #menu .textoVendas {
+        position: relative;
+        top: 20%;
+        left: 38%;
+        text-decoration: none;
+    }
+
+    .ImagemVendas {
+        position: relative;
+        width: 42px;
+        top: 18%;
+        right: 30%;
+    }
+
+    #menu .textoRegistrarNovaVenda{
+        position: relative;
+        top: 18%;
+        left: 0%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerarNotaFiscal{
+        position: relative;
+        top: 24%;
+        left: 0%;
+        text-decoration: none;
+    }
+
+    #menu .textoAnimais {
+        position: relative;
+        top: 12%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .ImagemAnimais {
+        position: relative;
+        width: 55px;
+        top: 7%;
+        right: 37%;
+    }
+
+    .textoCadastrarAnimais{
+        position: relative;
+        text-decoration: none;
+        color:white;
+        left: 10%;
+        top: 11%;
+    }
+
+    #menu .textoBanhoetosa {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .ImagemTesoura {
+        position: relative;
+        width: 41px;
+        top: 25%;
+        right: 55%;
+    }
+
+    #menu .textoCadastrarProduto {
+        position: relative;
+        top: 12%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoCadastrarFornecedor {
+        position: relative;
+        top: 15%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerenciarEstoque {
+        position: relative;
+        top: 16%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    /*QUADRADO CENTRAL*/
+
+    .quadradoCentral {
+        position: absolute;
+        width: 920px;
+        height: 440px;
+        background-color: #212B46;
+        left: 20%;
+        top: 26%;
+    }
+
+    .textos{
+        position: relative;
+        height: 50px;
+        top: -10%;
+    }
+
+    .barraDePesquisa {
+        position: relative;
+        top: -9%;
+    }
+
+    .barraDeExclusao{
+        position: relative;
+        left: 71%;
+        width: 100px;
+        top: -18%;
+    }
+
+        .vendas {
+            position: relative;
+            background-color: #151A30;
+            width: 90%;
+            height: 40px;
+            left: 4%;
+            top: -12%;
+            align-items: center;
+            display: flex;
+        }
+
+        .campoCodigo{
+            position: relative;
+            color: white;
+            top: 10%;
+            left: 2%;
+        }
+    
+        .campoEspecie{
+            position: relative;
+            color: white;
+            top: 10%;
+            left: 14%;
+        }
+        
+        .campoDescricao{
+            position: relative;
+            color: white;
+            top: 10%;
+            left: 26%;
+        }
+
+        .campoValor{
+            position: relative;
+            color: white;
+            top: 10%;
+            left: 63%;
+        }
+
+    .textoCodigo {
+        position: relative;
+        color: white;
+        left: 5%;
+        top: 10%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+    .textoEspecie {
+        position: relative;
+        color: white;
+        left: 23%;
+        top: -77%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+    .textoDescricao {
+        position: relative;
+        color: white;
+        left: 40%;
+        top: -167%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+    .textoValor {
+        position: relative;
+        color: white;
+        left: 80%;
+        top: -256%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+    .textoTotal {
+        position: relative;
+        color: white;
+        left: 81%;
+        top: -346%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .custom-dark-bg {
+        background-color: #151A30 !important;
+    }
+    #cabecalho {
+        height: 80px;
+        background-color: #212B46;
+    }
+
+
+        #cabecalho #profileicon {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            top: 18%;
+            left: 90%;
+        }
+
+        #cabecalho a {
+            position: relative;
+            left: 80%;
+            top: 30%;
+        }
+
+    #menu {
+        width: 155px;
+        height: 100vh;
+        background-color: #212B46;
+        position: fixed;
+        left: 0;
+    }
+
+        #menu .textoDashboard {
+            position: relative;
+            top: 13%;
+            left: 36%;
+            text-decoration: none;
+        }
+
+        #menu .selecionado {
+            position: relative;
+            width: 155px;
+            height: 110px;
+            background-color: #151A30;
+            top: 20%;
+        }
+
+    .ImagemDashboard {
+        position: relative;
+        width: 42px;
+        top: 12%;
+        right: 48%;
+    }
+
+    #menu .textoEstoque {
+        position: relative;
+        top: 16%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .ImagemEstoque {
+        position: relative;
+        width: 42px;
+        top: 16%;
+        right: 36%;
+    }
+
+    #menu .textoVendas {
+        position: relative;
+        top: 20%;
+        left: 38%;
+        text-decoration: none;
+    }
+
+    .ImagemVendas {
+        position: relative;
+        width: 42px;
+        top: 18%;
+        right: 30%;
+    }
+
+    #menu .textoRegistrarNovaVenda{
+        position: relative;
+        top: 18%;
+        left: 0%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerarNotaFiscal{
+        position: relative;
+        top: 24%;
+        left: 0%;
+        text-decoration: none;
+    }
+
+    #menu .textoAnimais {
+        position: relative;
+        top: 12%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .ImagemAnimais {
+        position: relative;
+        width: 55px;
+        top: 7%;
+        right: 37%;
+    }
+
+    .textoCadastrarAnimais{
+        position: relative;
+        text-decoration: none;
+        color:white;
+        left: 10%;
+        top: 11%;
+    }
+
+    #menu .textoBanhoetosa {
+        position: relative;
+        top: 25%;
+        left: 35%;
+        text-decoration: none;
+    }
+
+    .ImagemTesoura {
+        position: relative;
+        width: 41px;
+        top: 25%;
+        right: 55%;
+    }
+
+    #menu .textoCadastrarProduto {
+        position: relative;
+        top: 12%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoCadastrarFornecedor {
+        position: relative;
+        top: 15%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    #menu .textoGerenciarEstoque {
+        position: relative;
+        top: 16%;
+        left: 4%;
+        text-decoration: none;
+    }
+
+    /*QUADRADO CENTRAL*/
+
+    .quadradoCentral {
+        position: absolute;
+        width: 920px;
+        height: 440px;
+        background-color: #212B46;
+        left: 20%;
+        top: 26%;
+    }
+
+    .textos{
+        position: relative;
+        height: 50px;
+        top: -10%;
+    }
+
+    .barraDePesquisa {
+        position: relative;
+        top: -9%;
+    }
+
+    .barraDeExclusao{
+        position: relative;
+        left: 71%;
+        width: 100px;
+        top: -18%;
+    }
+
+        .vendas {
+            position: relative;
+            background-color: #151A30;
+            width: 90%;
+            height: 40px;
+            left: 4%;
+            top: -12%;
+            align-items: center;
+            display: flex;
+        }
+
+        .campoCodigo{
+            position: relative;
+            color: white;
+            top: 10%;
+            left: 2%;
+        }
+    
+        .campoEspecie{
+            position: relative;
+            color: white;
+            top: 10%;
+            left: 14%;
+        }
+        
+        .campoDescricao{
+            position: relative;
+            color: white;
+            top: 10%;
+            left: 26%;
+        }
+
+        .campoValor{
+            position: relative;
+            color: white;
+            top: 10%;
+            left: 63%;
+        }
+
+    .textoCodigo {
+        position: relative;
+        color: white;
+        left: 5%;
+        top: 10%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+    .textoEspecie {
+        position: relative;
+        color: white;
+        left: 23%;
+        top: -77%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+    .textoDescricao {
+        position: relative;
+        color: white;
+        left: 40%;
+        top: -167%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+    .textoValor {
+        position: relative;
+        color: white;
+        left: 80%;
+        top: -256%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+    .textoTotal {
+        position: relative;
+        color: white;
+        left: 81%;
+        top: -346%;
+        width: 100px;
+        font-size: 120%;
+    }
+
+
+}
