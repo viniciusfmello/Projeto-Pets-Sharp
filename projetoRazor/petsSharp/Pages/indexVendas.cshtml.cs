@@ -80,7 +80,7 @@ namespace petsSharp.Pages
 			if (pesquisa != null)
 			{
 				pesquisa = pesquisa.Trim().ToLower();
-				List<Dictionary<string, string>> temp_list_produtos = new List<Dictionary<string, string>>();
+				List<Dictionary<string, string>> temp_list_vendas = new List<Dictionary<string, string>>();
 				foreach (Dictionary<string, string> dicionario in list_vendas)
 				{
 					if (dicionario["codigo"].Contains(pesquisa, StringComparison.OrdinalIgnoreCase) ||
@@ -89,11 +89,11 @@ namespace petsSharp.Pages
 						dicionario["cliente"].Contains(pesquisa, StringComparison.OrdinalIgnoreCase) ||
 						dicionario["pagamento"].Contains(pesquisa, StringComparison.OrdinalIgnoreCase))
 					{
-						temp_list_produtos.Add(dicionario);
+						temp_list_vendas.Add(dicionario);
 					}
 				}
 
-				list_vendas = temp_list_produtos;
+				list_vendas = temp_list_vendas;
 			}
 		}
 	}
