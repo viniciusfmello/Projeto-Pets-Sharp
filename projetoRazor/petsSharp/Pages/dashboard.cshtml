@@ -6,26 +6,26 @@
 <div id="menu">
     <div class="selecionado">
         <a class="textoDashboard" asp-page="/dashboard" asp-area="" style="color: #004BE3;">Dashboard</a>
-        <img class="dashboard" src="~/img/tela-principal/dashboard.png"></img>
+        <img class="dashboard" src="~/img/tela-principal/dashboard.png">
     </div>
     <a class="textoEstoque" asp-page="/estoque" asp-area="" style="color:white">Estoque</a>
-    <img class="estoque" src="~/img/tela-principal/estoque.png"></img>
+    <img class="estoque" src="~/img/tela-principal/estoque.png">
     <a class="textoVendas" asp-page="/indexVendas" asp-area="" style="color: white;">Vendas</a>
-    <img class="vendas" src="~/img/tela-principal/sales.png"></img>
+    <img class="vendas" src="~/img/tela-principal/sales.png">
     <a class="textoAnimais" asp-page="/indexAnimais" asp-area="" style="color: white;">Animais</a>
-    <img class="animais" src="~/img/tela-principal/animais.png"></img>
+    <img class="animais" src="~/img/tela-principal/animais.png">
     <a class="textoBanhoetosa" asp-page="/indexBanhoETosa" asp-area="" style="color: white;">Banho e tosa</a>
-    <img class="tesoura" src="~/img/tela-principal/tesoura.png"></img>
+    <img class="tesoura" src="~/img/tela-principal/tesoura.png">
 </div>
 <div>
     <div class="quadrado1">
         <p class="textoEstoque" style="color:white">Estoque</p>
-        <img class="imagemQuadrado1" src="~/img/tela-principal/sales22.png"></img>
+        <img class="imagemQuadrado1" src="~/img/tela-principal/sales22.png">
         <p class="textoValorVendas" style="color: white;">@Model.totalVenda</p>
         <p class="textoTotaldeVendas" style="color:white">Total de vendas</p>
     </div>
     <div class="quadrado2">
-        <img class="imagemQuadrado2" src="~/img/tela-principal/sales2.png"></img>
+        <img class="imagemQuadrado2" src="~/img/tela-principal/sales2.png">
         <p class="textoValorProdutos" style="color: white;">@Model.totalProdutosCadastrados</p>
         <p class="textoProdutosCadastrados" style="color:white">Produtos cadastrados</p>
     </div>
@@ -35,18 +35,18 @@
     </div>
     <div class="quadrado4">
         <p class="textoBanhoeTosa" style="color: white;">Banho e tosa</p>
-        <img class="imagemQuadrado4" src="~/img/tela-principal/atendidos.png"></img>
+        <img class="imagemQuadrado4" src="~/img/tela-principal/atendidos.png">
         <p class="textoValorServicos""" style="color: white;">@Model.totalServicos</p>
         <p class="textoServicos" style="color:white">Serviços</p>
     </div>
     <div class="quadrado5">
-        <img class="imagemQuadrado5" src="~/img/tela-principal/pendente.png"></img>
+        <img class="imagemQuadrado5" src="~/img/tela-principal/pendente.png">
         <p class="textoValorPendentes" style="color: white;">@Model.totalServicosPendentes</p>
         <p class="textoServicosPendentes" style="color:white">Serviços pendentes</p>
     </div>
     <div class="quadrado6">
-        <p class="textoValorTotal" style="color: white;">R$ @Model.valorTotal</p>
-        <p class="textoValorTotalProdutos" style="color:white">Valor total dos produtos</p>
+        <p class="textoValorTotal" style="color: white; white-space: nowrap;">R$ @Model.valorTotal</p>
+        <p class="textoValorTotalProdutos" style="color:white; ">Valor total dos produtos</p>
     </div>
     <div class="quadrado7">
          <canvas id="meuGrafico" width="400" height="400"></canvas>

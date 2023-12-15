@@ -22,7 +22,7 @@
 
     #menu {
         width: 155px;
-        height: 100vh;
+        height: 100%;
         background-color: #212B46;
         position: fixed;
         left: 0;
@@ -101,7 +101,7 @@
 
     .tesoura {
         position: relative;
-        width: 41px;
+        width: 41vh;
         top: 27%;
         right: 55%;
     }
@@ -309,7 +309,7 @@
 
     #menu {
         width: 155px;
-        height: 100vh;
+        height: 100px;
         background-color: #212B46;
         position: fixed;
         left: 0;
@@ -587,7 +587,7 @@
 
     #menu {
         width: 155px;
-        height: 100vh;
+        height: 100px;
         background-color: #212B46;
         position: fixed;
         left: 0;
