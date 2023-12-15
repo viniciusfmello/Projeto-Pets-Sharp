@@ -1,63 +1,113 @@
 ﻿@page
 @model petsSharp.Pages.indexVendasModel
 @{
-    Layout = null;
+	Layout = null;
 }
 
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vendas</title>
-    <link href="~/css/styleVendas.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="styleVendas.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vendas</title>
+	<link href="~/css/styleVendas.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="styleVendas.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body style="background-color: #151A30;">
-    <header>
-        <div id="cabecalho">
-            <img id="profileicon" src="~/img/Imagens_vendas/profileicon.png">
-            <a asp-area="" asp-page="/Index" style="color: red;">Sair</a>
-        </div>
-    </header>
-    <main>
-        <div id="menu">
-            <a class="textoDashboard" asp-page="/dashboard" asp-area="" style="color: white;">Dashboard</a>
-            <img class="ImagemDashboard" src="~/img/Imagens_vendas/dashboard.png">
-            <a class="textoEstoque" asp-page="/estoque" asp-area="" style="color: white">Estoque</a>
-            <img class="ImagemEstoque" src="~/img/Imagens_vendas/estoque.png">
-            <div class="selecionado">
-                <a class="textoVendas" asp-page="/indexVendas" asp-area="" style="color: #004BE3;">Vendas</a>
-                <img class="ImagemVendas" src="~/img/Imagens_vendas/sales.png">
+	<header>
+		<div id="cabecalho">
+			<img id="profileicon" src="~/img/Imagens_vendas/profileicon.png"></img>
+			<a asp-area="" asp-page="/Index" style="color: red;">Sair</a>
+		</div>
+	</header>
+	<main>
+		<div id="menu">
+			<a class="textoDashboard" asp-page="/dashboard" asp-area="" style="color: white;">Dashboard</a>
+			<img class="ImagemDashboard" src="~/img/Imagens_vendas/dashboard.png"></img>
+			<a class="textoEstoque" asp-page="/estoque" asp-area="" style="color: white">Estoque</a>
+			<img class="ImagemEstoque" src="~/img/Imagens_vendas/estoque.png"></img>
+			<div class="selecionado">
+				<a class="textoVendas" asp-page="/indexVendas" asp-area="" style="color: #004BE3;">Vendas</a>
+				<img class="ImagemVendas" src="~/img/Imagens_vendas/sales.png"></img>
 <a class="textoRegistrarNovaVenda" asp-page="/registrarNovaVenda" asp-area="" style="color: white;">Registrar nova venda</a>
-                <a class="textoGerarNotaFiscal" asp-page="/gerarNota" asp-area="" style="color:white">Gerar nota fiscal</a>
-            </div>
-            <a class="textoAnimais" asp-page="/indexAnimais" asp-area="" style="color: white;">Animais</a>
-            <img class="ImagemAnimais" src="~/img/Imagens_vendas/animais.png">
-            <a class="textoBanhoetosa" asp-page="/indexBanhoETosa" asp-area="" style="color: white;">Banho e tosa</a>
-            <img class="ImagemTesoura" src="~/img/Imagens_vendas/tesoura.png">
-        </div>
-        <div class="quadradoCentral">
-            <form class="d-flex barraDePesquisa" role="search">
-                <input class="form-control text-white border-black" type="search" placeholder="" aria-label="Search" style="background-color: #212B46; width: 200px;">
-                <button class="btn border-black" type="submit" style="background-color: #212B46; color: white;">Pesquisar</button>
-            </form>
-            <form class="d-flex barraDeExclusao" role="search">
-                <input class="form-control text-white border-black" type="search" placeholder="" aria-label="Search" style="background-color: #212B46; width: 200px;">
-                <button class="btn border-black" type="submit" style="background-color: red; color: white;">Excluir</button>
-            </form>
-            <div class="textos">
-                <p class="textoCodigo">Código:</p>
-                <p class="textoCliente">Cliente:</p>
-<p class="textoProduto">Produto:</p>
-                <p class="textoPagamento">Pagamento:</p>
-                <p class="textoTotal">Total:</p>
-            </div>
-            <div class="vendas">
-            </div>
-        </div>
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+				<a class="textoGerarNotaFiscal" asp-page="/gerarNota" asp-area="" style="color:white">Gerar nota fiscal</a>
+			</div>
+			<a class="textoAnimais" asp-page="/indexAnimais" asp-area="" style="color: white;">Animais</a>
+			<img class="ImagemAnimais" src="~/img/Imagens_vendas/animais.png"></img>
+			<a class="textoBanhoetosa" asp-page="/indexBanhoETosa" asp-area="" style="color: white;">Banho e tosa</a>
+			<img class="ImagemTesoura" src="~/img/Imagens_vendas/tesoura.png"></img>
+		</div>
+		<div class="quadradoCentral">
+			<form asp-page-handler="Pesquisa" method="post" class="d-flex barraDePesquisa" role="search">
+				<input asp-for="@Model.pesquisa" class="form-control text-white border-black" type="search" placeholder="" aria-label="Search" style="background-color: #212B46; width: 200px;">
+				<button class="btn border-black" type="submit" style="background-color: #212B46; color: white;">Pesquisar</button>
+			</form>
+			<form class="d-flex barraDeExclusao" role="search">
+				<input class="form-control text-white border-black" type="search" placeholder="" aria-label="Search" style="background-color: #212B46; width: 200px;">
+				<button class="btn border-black" type="submit" style="background-color: red; color: white;">Excluir</button>
+			</form>
+			<div class="container mt-4">
+				<div class="table-responsive">
+					<table class="table table-striped table-dark dataTable" id="tabelaProdutos">
+						<thead>
+							<tr>
+								<th scope="col">Codigo</th>
+								<th scope="col">Cliente</th>
+								<th scope="col">Pagamento</th>
+								<th scope="col">Total</th>
+							</tr>
+						</thead>
+						<tbody>
+							@foreach (Dictionary<string, string> dicionario in Model.list_vendas)
+							{
+									<tr>
+										<td>@dicionario["codigo"]</td>
+										<td>@dicionario["cliente"]</td>
+										<td>@dicionario["pagamento"]</td>
+										<td>R$ @dicionario["valor"]</td>
+									</tr>
+							}
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+		</div>
+	</main>
+	<script>
+		$(document).ready(function () {
+			$('#tabelaProdutos').DataTable({
+				"paging": true,
+				"pageLength": 10,
+				"lengthMenu": [10, 20, 50],
+				"info": false,
+				"searching": false,
+				"language": {
+					"emptyTable": "Sem dados disponíveis",
+					"info": "Mostrando _START_ até _END_ de _TOTAL_ registros",
+					"infoEmpty": "Mostrando 0 até 0 de 0 registros",
+					"infoFiltered": "(filtrado de _MAX_ registros no total)",
+					"lengthMenu": "Mostrar _MENU_ registros por página",
+					"zeroRecords": "Nenhum registro encontrado",
+					"paginate": {
+						"first": "Primeiro",
+						"previous": "Anterior",
+						"next": "Próximo",
+						"last": "Último"
+					}
+				},
+				"drawCallback": function (settings) {
+					$('.custom-length-text').css('color', 'white');
+					$('.custom-paginate-text').find('label').css('color', 'white');
+				}
+
+			});
+
+			$('.dataTables_length').find('label').css('color', 'white');
+			$('.dataTables_paginate').find('label').css('color', 'white !important');
+
+		});
+	</script>
 </body>
 </html>
